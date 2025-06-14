@@ -1,0 +1,48 @@
+version: '3.1'
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysqldb
+    environment:
+      MYSQL_ROOT_PASSWORD: tuanhung1999
+      MYSQL_DATABASE: e-commerce
+    ports:
+      - "3306:3306"
+    networks:
+      - my_network
+
+  spring-boot-app:
+    image: shoestore
+    container_name: spring-boot-app
+    restart: always
+    build: .
+    depends_on:
+      - mysql
+    ports:
+      - "5252:5252"
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: tuanhung1999
+      MYSQL_DATABASE: e-commerce
+      MYSQL_HOST: mysqldb
+      MINIO_URL: minio
+    networks:
+      - my_network
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: "minioadmin"
+      MINIO_ROOT_PASSWORD: "minioadmin"
+    volumes:
+      - ./data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: server /data --console-address :9001
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
