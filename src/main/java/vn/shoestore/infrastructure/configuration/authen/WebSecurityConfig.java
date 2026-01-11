@@ -32,41 +32,46 @@ public class WebSecurityConfig {
   @Bean
   public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
     http.csrf(AbstractHttpConfigurer::disable)
-        .headers(header -> header.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin))
-        .cors(
-            cors ->
-                cors.configurationSource(
-                    request -> {
-                      CorsConfiguration configuration = new CorsConfiguration();
-                      configuration.setAllowedMethods(List.of("*"));
-                      configuration.setAllowedHeaders(List.of("*"));
-                      configuration.setAllowedOrigins(
-                          List.of("http://localhost:4200", "http://localhost:*"));
-                      configuration.setAllowCredentials(true);
-                      return configuration;
-                    }))
-        .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-        .authorizeHttpRequests(
-                (authorize) ->
-                        authorize
-                                .requestMatchers("/api/v1/**")
-                                .authenticated()
-                                .requestMatchers("/api/**")
-                                .authenticated()
-                                .requestMatchers("/open-api/**")
-                                .permitAll()
-                                .requestMatchers("/auth/**")
-                                .permitAll()
-                                .requestMatchers("/swagger-ui/**")
-                                .permitAll()
-                                .requestMatchers("/v3/api-docs/**")
-                                .permitAll()
-                                .requestMatchers("/actuator/**")
-                                .permitAll()
-        )
-        .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
+      .headers(header -> header.frameOptions(HeadersConfigurer.FrameOptionsConfig::sameOrigin))
+      .cors(
+        cors ->
+          cors.configurationSource(
+            request -> {
+              CorsConfiguration configuration = new CorsConfiguration();
+              configuration.setAllowedMethods(List.of("*"));
+              configuration.setAllowedHeaders(List.of("*"));
+              configuration.setAllowedOrigins(
+                List.of("http://localhost:4200", "http://localhost:*"));
+              configuration.setAllowCredentials(true);
+              return configuration;
+            }))
+      .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+      .authorizeHttpRequests(
+          (authorize) ->
+                authorize
+                  // Cho phép tracking behavior không cần xác thực cho cả v1 và v2
+                  .requestMatchers("/api/v1/behavior/**").permitAll()
+                  .requestMatchers("/v2/behavior/**").permitAll()
+                  .requestMatchers("/v2/user-behaviors/**").permitAll()
+                  // .requestMatchers("/v2/user-behaviors/**").permitAll() // Bỏ permitAll, yêu cầu xác thực
+                  .requestMatchers("/api/v1/**")
+                  .authenticated()
+                  .requestMatchers("/api/**")
+                  .authenticated()
+                  .requestMatchers("/open-api/**")
+                  .permitAll()
+                  .requestMatchers("/auth/**")
+                  .permitAll()
+                  .requestMatchers("/swagger-ui/**")
+                  .permitAll()
+                  .requestMatchers("/v3/api-docs/**")
+                  .permitAll()
+                  .requestMatchers("/actuator/**")
+                  .permitAll()
+      )
+      .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
     return http.build();
-  }
+    }
 
   @Bean
   public AuthenticationProvider authenticationProvider() {

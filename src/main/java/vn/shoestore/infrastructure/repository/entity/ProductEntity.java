@@ -22,7 +22,7 @@ public class ProductEntity {
   @Column(name = "code")
   private String code;
 
-  @Column(name = "description")
+  @Column(name = "description", columnDefinition = "TEXT")
   private String description;
 
   @Column(name = "price")

@@ -26,4 +26,5 @@ public class ChatAnalytics {
   private Integer satisfactionRating; // 1-5
   
   private LocalDateTime createdDate;
+  private LocalDateTime eventDate;
 }
