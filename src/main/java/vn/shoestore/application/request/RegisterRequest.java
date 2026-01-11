@@ -37,4 +37,7 @@ public class RegisterRequest {
   private String phoneNumber;
 
   private String address;
+
+  @NotNull(message = "gender_id cannot be null")
+  private Long genderId; // 0 = Nữ, 1 = Nam, 2 = Unisex (chỉ cho phép 0 hoặc 1 khi đăng ký)
 }

@@ -23,4 +23,8 @@ public class Product {
   private Long price;
 
   private String thumbnailImg;
+
+  private String color;
+
+  private Long genderId;
 }

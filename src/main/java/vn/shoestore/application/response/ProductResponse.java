@@ -24,6 +24,12 @@ public class ProductResponse {
   private String code;
   private String description;
   private Long price;
+  private String thumbnail;
+  private String color;
+  private Long genderId;
+  private String genderName; // "Nữ", "Nam", "Unisex" - FE không cần map
+  private Integer viewCount; // Số lượt xem (chỉ có trong user_top_viewed)
+  private Integer searchCount; // Số lượt tìm kiếm (chỉ có trong user_top_search)
   @Builder.Default private Boolean isPromotion = false;
   private Long promotionId;
   private Double promotionPrice;

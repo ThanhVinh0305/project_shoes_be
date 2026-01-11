@@ -45,7 +45,29 @@ public class UserUseCaseImpl implements IUserUseCase {
     List<User> users = userAdapter.getUserByIdIn(Collections.singletonList(id));
     if (users.isEmpty()) return null;
     userService.enrichRole(users);
-    return users.get(0);
+    User user = users.get(0);
+    enrichGenderName(user);
+    return user;
+  }
+
+  private void enrichGenderName(User user) {
+    // Map gender_id -> gender_name
+    // DB: 1 = Nữ, 2 = Nam, 3 = Unisex
+    if (user.getGenderId() != null) {
+      switch (user.getGenderId().intValue()) {
+        case 1:
+          user.setGenderName("Nữ");
+          break;
+        case 2:
+          user.setGenderName("Nam");
+          break;
+        case 3:
+          user.setGenderName("Unisex");
+          break;
+        default:
+          user.setGenderName(null);
+      }
+    }
   }
 
   @Override

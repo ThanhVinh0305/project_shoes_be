@@ -23,6 +23,8 @@ public class SearchProductRequest {
 
   @Builder.Default private List<Integer> categories = new ArrayList<>();
 
+  @Builder.Default private List<Integer> genders = new ArrayList<>();
+
   private Integer minCost;
   private Integer maxCost;
 
@@ -40,5 +42,10 @@ public class SearchProductRequest {
   public List<Integer> getCategories() {
     if (categories == null) return Collections.emptyList();
     return categories;
+  }
+
+  public List<Integer> getGenders() {
+    if (genders == null) return Collections.emptyList();
+    return genders;
   }
 }

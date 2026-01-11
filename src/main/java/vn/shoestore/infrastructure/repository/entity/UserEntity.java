@@ -42,6 +42,9 @@ public class UserEntity {
   @Column(name = "phone_number")
   private String phoneNumber;
 
+  @Column(name = "gender_id")
+  private Long genderId;
+
   @Column(name = "created_date", insertable = false, updatable = false)
   private LocalDateTime createdDate;
 

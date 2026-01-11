@@ -25,6 +25,7 @@ public interface ProductRepository extends JpaRepository<ProductEntity, Long> {
                         AND (:#{#request.getCode()} is null  or p.code like concat('%' , :#{#request.getCode()} , '%'))
                         AND (:#{#request.getBrands().empty == true} or pb.brand_id in :#{#request.getBrands()})
                         AND (:#{#request.getCategories().empty == true} or pc.category_id in :#{#request.getCategories()})
+                        AND (:#{#request.getGenders().empty == true} or p.gender_id in :#{#request.getGenders()})
                         AND (:#{#request.getMinCost()} is null or p.price >= :#{#request.getMinCost()})
                         AND (:#{#request.getMaxCost()} is null or p.price <= :#{#request.getMaxCost()})
                         AND (:#{#request.getIsPromoted() == false} or (now() between pr.start_date and pr.end_date))

@@ -7,6 +7,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.jdbc.core.JdbcTemplate;
 import vn.shoestore.application.request.SearchProductRequest;
 import vn.shoestore.application.response.ProductResponse;
 import vn.shoestore.application.response.SearchProductResponse;
@@ -31,6 +32,7 @@ public class GetProductUseCaseImpl implements IGetProductUseCase {
   private final ProductPropertiesAdapter productPropertiesAdapter;
   private final ProductPromotionAdapter productPromotionAdapter;
   private final ImportTicketAdapter importTicketAdapter;
+  private final JdbcTemplate jdbcTemplate;
 
   @Override
   public SearchProductResponse searchProduct(SearchProductRequest request) {
@@ -42,6 +44,14 @@ public class GetProductUseCaseImpl implements IGetProductUseCase {
 
     List<ProductResponse> productResponses =
         ModelMapperUtils.mapList(products, ProductResponse.class);
+    
+    // Map thumbnail từ Product.thumbnailImg sang ProductResponse.thumbnail
+    for (int i = 0; i < products.size(); i++) {
+      productResponses.get(i).setThumbnail(products.get(i).getThumbnailImg());
+      productResponses.get(i).setColor(products.get(i).getColor());
+      productResponses.get(i).setGenderId(products.get(i).getGenderId());
+    }
+    
     enrichInfo(productResponses);
 
     return SearchProductResponse.builder()
@@ -57,6 +67,10 @@ public class GetProductUseCaseImpl implements IGetProductUseCase {
       throw new InputNotValidException(PRODUCT_NOT_FOUND);
     }
     ProductResponse productResponse = ModelMapperUtils.mapper(product, ProductResponse.class);
+    // Map thumbnail từ Product.thumbnailImg sang ProductResponse.thumbnail
+    productResponse.setThumbnail(product.getThumbnailImg());
+    productResponse.setColor(product.getColor());
+    productResponse.setGenderId(product.getGenderId());
     enrichInfo(Collections.singletonList(productResponse));
     return productResponse;
   }
@@ -66,6 +80,14 @@ public class GetProductUseCaseImpl implements IGetProductUseCase {
     List<Product> products = productAdapter.findAllByIds(ids);
     List<ProductResponse> productResponses =
         ModelMapperUtils.mapList(products, ProductResponse.class);
+    
+    // Map thumbnail từ Product.thumbnailImg sang ProductResponse.thumbnail
+    for (int i = 0; i < products.size(); i++) {
+      productResponses.get(i).setThumbnail(products.get(i).getThumbnailImg());
+      productResponses.get(i).setColor(products.get(i).getColor());
+      productResponses.get(i).setGenderId(products.get(i).getGenderId());
+    }
+    
     enrichInfo(productResponses);
     return productResponses;
   }
@@ -76,6 +98,24 @@ public class GetProductUseCaseImpl implements IGetProductUseCase {
     enrichUrls(productResponses);
     enrichSize(productResponses);
     enrichPromotion(productResponses);
+    enrichGender(productResponses);
+  }
+
+  private void enrichGender(List<ProductResponse> productResponses) {
+    // Map gender_id -> gender_name từ bảng genders
+    // Mapping: 1=Nữ, 2=Nam, 3=Unisex (trong DB)
+    // Nhưng logic: 0=Nữ, 1=Nam, 2=Unisex (cho user registration)
+    Map<Long, String> genderMap = new HashMap<>();
+    genderMap.put(1L, "Nữ");   // DB id 1 = Nữ
+    genderMap.put(2L, "Nam");  // DB id 2 = Nam
+    genderMap.put(3L, "Unisex"); // DB id 3 = Unisex
+
+    for (ProductResponse response : productResponses) {
+      if (response.getGenderId() != null) {
+        String genderName = genderMap.get(response.getGenderId());
+        response.setGenderName(genderName);
+      }
+    }
   }
 
   private void enrichPromotion(List<ProductResponse> productResponses) {

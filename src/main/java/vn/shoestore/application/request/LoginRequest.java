@@ -18,4 +18,13 @@ public class LoginRequest {
 
   @NotNull(message = "password cannot be null")
   private String password;
+
+  // Bổ sung getter tường minh để tránh lỗi khi annotation processing bị tắt
+  public String getUsername() {
+    return username;
+  }
+
+  public String getPassword() {
+    return password;
+  }
 }

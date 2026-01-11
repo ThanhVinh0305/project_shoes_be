@@ -1,0 +1,360 @@
+================================================================================
+                    MÔ HÌNH DỮ LIỆU HỆ THỐNG GỢI Ý
+================================================================================
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│                          DATABASE SCHEMA                                    │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌──────────────┐
+│    users     │
+├──────────────┤
+│ id (PK)      │
+│ username     │
+│ email        │
+│ gender_id    │
+└──────┬───────┘
+       │ 1
+       │
+       │ N
+┌──────▼──────────────┐         ┌──────────────────┐
+│       bills         │         │  recommendations │
+├─────────────────────┤         ├──────────────────┤
+│ id (PK)             │         │ id (PK)          │
+│ user_id (FK)        │◄────────┤ user_id (FK)     │
+│ total               │         │ product_id (FK)   │
+│ status              │         │ recommendation_   │
+│ created_date        │         │   type           │
+│ address             │         │ recommendation_   │
+│ phone_number        │         │   score           │
+└──────┬──────────────┘         │ reason           │
+       │ 1                      │ is_shown         │
+       │                        │ is_clicked       │
+       │ N                      │ created_date     │
+┌──────▼──────────────────┐     └──────────────────┘
+│    product_bills        │
+├─────────────────────────┤
+│ id (PK)                 │
+│ bill_id (FK)            │
+│ product_properties_id   │
+│   (FK)                  │
+│ amount                  │
+│ price                   │
+│ promotion_price         │
+└──────┬──────────────────┘
+       │ N
+       │
+       │ 1
+┌──────▼──────────────────┐
+│  product_properties     │
+├─────────────────────────┤
+│ id (PK)                 │
+│ product_id (FK)         │
+│ size                    │
+│ gender_id               │
+│ is_able                 │
+└──────┬──────────────────┘
+       │ N
+       │
+       │ 1
+┌──────▼──────────┐
+│    products     │
+├─────────────────┤
+│ id (PK)         │
+│ name            │
+│ code (UNIQUE)   │
+│ price           │
+│ description     │
+│ thumbnail_img   │
+│ color           │
+│ gender_id       │
+└──────┬──────────┘
+       │ 1
+       │
+       │ N
+       ├──────────────────┐
+       │                  │
+┌──────▼──────────┐  ┌───▼──────────────┐
+│ product_brands  │  │ product_categories│
+├─────────────────┤  ├──────────────────┤
+│ id (PK)         │  │ id (PK)          │
+│ product_id (FK) │  │ product_id (FK)  │
+│ brand_id (FK)   │  │ category_id (FK) │
+└─────────────────┘  └──────────────────┘
+
+
+================================================================================
+                          DATASET STRUCTURE
+================================================================================
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│                    transaction_dataset.csv                                  │
+│                    18,943 records × 13 columns                             │
+└────────────────────────────────────────────────────────────────────────────┘
+
+Columns (13 features gốc):
+┌─────────────────────┬──────────────┬────────────────────────────┐
+│ Column Name         │ Type         │ Description                │
+├─────────────────────┼──────────────┼────────────────────────────┤
+│ user_id             │ Numeric      │ ID người dùng              │
+│ product_id          │ Numeric      │ ID sản phẩm                │
+│ brand_id            │ Numeric      │ ID thương hiệu             │
+│ category_id         │ Numeric      │ ID danh mục                │
+│ gender_id           │ Numeric      │ ID giới tính               │
+│ color               │ String       │ Màu sắc                    │
+│ price               │ Numeric      │ Giá                        │
+│ price_range         │ Categorical  │ low/medium/high             │
+│ purchase_amount     │ Numeric      │ Số lượng mua               │
+│ purchase_price      │ Numeric      │ Giá mua                    │
+│ product_purchase_   │ Numeric      │ Số lần sản phẩm được mua   │
+│   count             │              │ (QUAN TRỌNG NHẤT)          │
+│ user_purchase_      │ Numeric      │ Số lần user mua            │
+│   count             │              │                            │
+│ will_recommend      │ Categorical  │ YES/NO (Target)            │
+└─────────────────────┴──────────────┴────────────────────────────┘
+
+
+After Preprocessing (23 features):
+┌────────────────────────────────────────────────────────────────────────────┐
+│ Numeric Features (7):                                                      │
+│   - user_id, product_id, brand_id, category_id, gender_id                  │
+│   - product_purchase_count, user_purchase_count                            │
+│                                                                             │
+│ One-hot Encoded Color (10):                                                │
+│   - color_Black, color_Blue, color_White, color_Grey, color_Red            │
+│   - color_Multicolor, color_Pink, color_Black/Blue, color_Black/White     │
+│   - color_other                                                            │
+│                                                                             │
+│ One-hot Encoded Price Range (3):                                           │
+│   - price_range_low, price_range_medium, price_range_high                  │
+│                                                                             │
+│ Other (3):                                                                  │
+│   - color_encoded và các features phụ                                      │
+└────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+                        MODEL INPUT/OUTPUT STRUCTURE
+================================================================================
+
+INPUT (Features Vector - 23 dimensions):
+┌────────────────────────────────────────────────────────────────────────────┐
+│ [user_id, product_id, brand_id, category_id, gender_id,                    │
+│  product_purchase_count, user_purchase_count,                              │
+│  color_Black, color_Blue, color_White, ..., color_other,                  │
+│  price_range_low, price_range_medium, price_range_high]                    │
+│                                                                             │
+│ Example:                                                                    │
+│ [3, 167, 1, 2, 2, 187, 50, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0] │
+└────────────────────────────────────────────────────────────────────────────┘
+
+OUTPUT (Target):
+┌────────────────────────────────────────────────────────────────────────────┐
+│ will_recommend: 0 (NO) hoặc 1 (YES)                                        │
+│                                                                             │
+│ Model Output:                                                               │
+│   - Prediction: 0 hoặc 1                                                    │
+│   - Score: 0.0 hoặc 1.0                                                    │
+│   - Rule: IF product_purchase_count > 109.5 → 1, ELSE → 0                  │
+└────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+                            DATA FLOW
+================================================================================
+
+TRAINING PHASE:
+┌──────────────┐
+│ MySQL DB     │
+│              │
+│ bills        │
+│ product_bills│
+│ products     │
+└──────┬───────┘
+       │ JOIN
+       ▼
+┌─────────────────────────────────────┐
+│ Calculate Features                  │
+│ - purchase_count                    │
+│ - price_range                       │
+│ - will_recommend                   │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ CSV Dataset                          │
+│ 18,943 records × 13 columns         │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Preprocessing                       │
+│ - One-hot encoding                  │
+│ - Feature selection                 │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ X (18,943 × 23), y (18,943)        │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Train/Test Split (80/20)            │
+│ Train: 15,154 samples              │
+│ Test: 3,789 samples                │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ J48 Model Training                  │
+│ - Information Gain                  │
+│ - Build Decision Tree               │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Model File (.pkl)                   │
+│ j48_recommendation_model.pkl        │
+└─────────────────────────────────────┘
+
+
+PREDICTION PHASE:
+┌──────────────┐
+│ User Request │
+│ user_id = 3  │
+└──────┬───────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Load Model                          │
+│ j48_recommendation_model.pkl        │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Query MySQL                         │
+│ - User data                         │
+│ - All products                      │
+│ - Product features                  │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Calculate Features                  │
+│ 23 features per product              │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Model Predict                       │
+│ IF purchase_count > 109.5 → YES    │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Sort & Filter                       │
+│ Top N recommendations               │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ Save to recommendations table       │
+│ (Optional)                          │
+└──────┬──────────────────────────────┘
+       │
+       ▼
+┌─────────────────────────────────────┐
+│ JSON Response                       │
+│ {recommendations: [...]}            │
+└─────────────────────────────────────┘
+
+
+================================================================================
+                        DECISION TREE STRUCTURE
+================================================================================
+
+                    ┌─────────────────────────┐
+                    │   Root Node             │
+                    │   15,154 samples        │
+                    │   Entropy = 1.0         │
+                    └───────────┬─────────────┘
+                                │
+                    Split by: product_purchase_count <= 109.5
+                                │
+                ┌───────────────┴───────────────┐
+                │                               │
+        ┌───────▼────────┐              ┌───────▼────────┐
+        │  Left Node     │              │  Right Node    │
+        │  <= 109.5      │              │  > 109.5       │
+        │  7,654 samples │              │  7,500 samples │
+        │  All NO        │              │  All YES       │
+        │  Leaf: NO      │              │  Leaf: YES     │
+        └────────────────┘              └────────────────┘
+
+Rule Learned:
+IF product_purchase_count <= 109.5
+   THEN → NO (không nên gợi ý)
+ELSE
+   THEN → YES (nên gợi ý)
+
+
+================================================================================
+                        DATA STATISTICS
+================================================================================
+
+Database:
+  - bills: 10,002 records
+  - product_bills: 19,961 records
+  - products: 200 records
+  - users: 101 records
+
+Dataset:
+  - Total records: 18,943
+  - Features: 13 (gốc) → 23 (sau encoding)
+  - Train set: 15,154 samples (80%)
+  - Test set: 3,789 samples (20%)
+  - Target distribution: ~50% YES, ~50% NO
+
+Model:
+  - Features used: 23
+  - Important feature: product_purchase_count (100%)
+  - Threshold: 109.5
+  - Accuracy: 100%
+  - Tree nodes: 3 (1 decision, 2 leaves)
+
+
+================================================================================
+                        RECOMMENDATIONS TABLE
+================================================================================
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│ recommendations                                                            │
+├────────────────────────────────────────────────────────────────────────────┤
+│ id (PK)                    BIGINT                                          │
+│ user_id (FK)               BIGINT → users.id                               │
+│ product_id (FK)            BIGINT → products.id                             │
+│ recommendation_type        ENUM (CONTENT_BASED, ...)                       │
+│ recommendation_score       DECIMAL(10,6)  (0.0 - 1.0)                      │
+│ reason                     TEXT                                           │
+│ is_shown                   BOOLEAN                                         │
+│ is_clicked                 BOOLEAN                                         │
+│ created_date               DATETIME                                         │
+└────────────────────────────────────────────────────────────────────────────┘
+
+Example Record:
+  user_id: 3
+  product_id: 167
+  recommendation_type: CONTENT_BASED
+  recommendation_score: 1.0
+  reason: "Sản phẩm được mua 187 lần"
+  is_shown: false
+  is_clicked: false
+  created_date: 2025-12-09 10:00:00
+
+
+================================================================================
+                            END OF DIAGRAM
+================================================================================
+
+

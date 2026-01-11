@@ -30,4 +30,10 @@ public class ProductEntity {
 
   @Column(name = "thumbnail_img")
   private String thumbnailImg;
+
+  @Column(name = "color")
+  private String color;
+
+  @Column(name = "gender_id")
+  private Long genderId;
 }

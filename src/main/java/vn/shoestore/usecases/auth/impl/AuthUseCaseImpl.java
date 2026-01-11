@@ -57,7 +57,8 @@ public class AuthUseCaseImpl implements IAuthUseCase {
   @Override
   @Transactional
   public LoginResponse login(LoginRequest request) throws IllegalAccessException {
-    User user = userAdapter.getUserByUsername(request.getUsername());
+    // Cho phép đăng nhập bằng username hoặc email
+    User user = userAdapter.getUserByLogin(request.getUsername());
     userService.enrichRole(Stream.of(user).filter(Objects::nonNull).toList());
     if (Objects.isNull(user)) {
       throw new NotAuthorizedException(ExceptionMessage.LOGIN_FAIL);
@@ -95,7 +96,18 @@ public class AuthUseCaseImpl implements IAuthUseCase {
       throw new InputNotValidException(INVALID_PASSWORD);
     }
 
+    // Validate gender_id: chỉ cho phép 0 (Nữ) hoặc 1 (Nam) khi đăng ký
+    // Convert: 0 -> 1 (Nữ trong DB), 1 -> 2 (Nam trong DB)
+    if (request.getGenderId() != null && request.getGenderId() != 0L && request.getGenderId() != 1L) {
+      throw new InputNotValidException("gender_id must be 0 (Nữ) or 1 (Nam)");
+    }
+
     user.setPassword(passwordEncoder.encode(request.getPassword()));
+    // Convert logic gender_id (0,1) sang DB gender_id (1,2)
+    // 0 (Nữ) -> 1 (DB), 1 (Nam) -> 2 (DB)
+    if (request.getGenderId() != null) {
+      user.setGenderId(request.getGenderId() == 0L ? 1L : 2L);
+    }
 
     User savedUser = userAdapter.save(user);
 

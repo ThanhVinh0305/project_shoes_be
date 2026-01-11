@@ -26,6 +26,20 @@ public class UserAdapterImpl implements UserAdapter {
   }
 
   @Override
+  public User getUserByLogin(String login) {
+    if (login == null) return null;
+    Optional<UserEntity> optionalUser;
+    if (login.contains("@")) {
+      optionalUser = userRepository.findByEmail(login);
+    } else {
+      optionalUser = userRepository.findByUsername(login);
+    }
+    return optionalUser
+        .map(userEntity -> ModelMapperUtils.mapper(userEntity, User.class))
+        .orElse(null);
+  }
+
+  @Override
   public User save(User user) {
     return ModelMapperUtils.mapper(
         userRepository.save(ModelMapperUtils.mapper(user, UserEntity.class)), User.class);

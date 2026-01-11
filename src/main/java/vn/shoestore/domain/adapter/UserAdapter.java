@@ -8,6 +8,11 @@ import vn.shoestore.domain.model.User;
 public interface UserAdapter {
   User getUserByUsername(String username);
 
+  /**
+   * Cho phép đăng nhập bằng username hoặc email (nếu có ký tự '@').
+   */
+  User getUserByLogin(String login);
+
   User save(User user);
 
   List<User> getUserByIdIn(List<Long> ids);

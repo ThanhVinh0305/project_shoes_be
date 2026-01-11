@@ -34,6 +34,9 @@ public class User {
 
   private String lastName;
 
+  private Long genderId; // DB: 1 = Nữ, 2 = Nam, 3 = Unisex
+  private String genderName; // "Nữ", "Nam", "Unisex" - FE không cần map
+
   @Builder.Default private Boolean active = true;
 
   @Builder.Default List<Role> roles = new ArrayList<>();

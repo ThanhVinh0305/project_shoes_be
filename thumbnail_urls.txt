@@ -1,0 +1,128 @@
+# Thumbnail URLs for ShoeStore Products
+# Format: ID | CODE | NAME | THUMBNAIL_URL
+
+1 | NIKE-AM90-001 | Nike Air Max 90 | https://authentic-shoes.com/wp-content/uploads/2023/04/898512_201.png_4c8f2ef62bf44d84b3b0444eca499b58.png
+2 | NIKE-AF1-001 | Nike Air Force 1 | https://authentic-shoes.com/wp-content/uploads/2023/04/dj6878_100.png_5c9929c96f5944d9a_a396eb11f5be494c99f8d67a6d73a7cb.png
+3 | NIKE-DUNK-001 | Nike Dunk Low | https://authentic-shoes.com/wp-content/uploads/2023/04/bq6817_010.png_0a2a0a9ae4b64b46a5738788a3c77a78.png
+4 | NIKE-RE55-001 | Nike React Element 55 | https://authentic-shoes.com/wp-content/uploads/2023/04/cq4809_001.png_ca8a8494d1f445f58dadb15fa42cce29.png
+5 | NIKE-AJ1-001 | Nike Air Jordan 1 | https://authentic-shoes.com/wp-content/uploads/2023/04/air-jordan-1-retro-high-bloodline-555088-062-5_4d731a91dc3c41b2a29d1d1718319b32.jpg
+6 | NIKE-BLZ-001 | Nike Blazer Mid | https://authentic-shoes.com/wp-content/uploads/2023/04/cj9693_600.png_3b3127d4a2e8422d83cf04c2910e57e1.png
+7 | NIKE-PEG38-001 | Nike Pegasus 38 | https://authentic-shoes.com/wp-content/uploads/2023/04/701942_01.jpg_5a4958cd3d99460a920d03bbb77a948c.png
+8 | NIKE-CORT-001 | Nike Cortez | https://authentic-shoes.com/wp-content/uploads/2023/04/859569_900_d8d0158a0d9e4459a1faded272666f5d.png
+9 | NIKE-VM-001 | Nike VaporMax | https://authentic-shoes.com/wp-content/uploads/2023/04/127555_01.jpg_787633f5d79940cda0b62ed4d1aa90f8.png
+10 | NIKE-SB-001 | Nike SB Dunk | https://authentic-shoes.com/wp-content/uploads/2023/04/313170_811_47222b915621458985ff23361aadc63f.png
+11 | NIKE-AM270-001 | Nike Air Max 270 | https://authentic-shoes.com/wp-content/uploads/2023/04/1__1__20e85019138540139a7813cac9c8ba71.png
+12 | NIKE-ZX-001 | Nike ZoomX Vaporfly | https://authentic-shoes.com/wp-content/uploads/2023/04/543240_01.jpg_f90ee6ebd92e4d2f94d0a79d6aaeb9bf.jpeg
+13 | NIKE-AM97-001 | Nike Air Max 97 | https://authentic-shoes.com/wp-content/uploads/2023/04/nike-air-max-97-corduroy-packin_98fd7d2e1d6a44d590bff4d5bfbb29b0.png
+14 | NIKE-FREE-001 | Nike Free RN | https://authentic-shoes.com/wp-content/uploads/2025/09/W-NIKE-FREE-METCON-6-10.png
+15 | NIKE-KY7-001 | Nike Kyrie 7 | https://authentic-shoes.com/wp-content/uploads/2023/04/ao2919_902.png_5e5934250373470eb9ce04e79ce0fed5.png
+16 | NIKE-LB18-001 | Nike LeBron 18 | https://authentic-shoes.com/wp-content/uploads/2023/04/758357_01.jpg_65063c7da57844989ad3d04410a64d20.png
+17 | NIKE-AM95-001 | Nike Air Max 95 | https://authentic-shoes.com/wp-content/uploads/2023/04/aa1103_600.png_4b833c9f8fad4d399615a3485188ebec.png
+18 | NIKE-MET7-001 | Nike Metcon 7 | https://authentic-shoes.com/wp-content/uploads/2025/10/WNIKEMETCON10-5-duoc-xoa-nen.png
+19 | NIKE-AM720-001 | Nike Air Max 720 | https://authentic-shoes.com/wp-content/uploads/2023/04/air-max-720-heren-sneakers-sport-casual-schoenen-zwart-goud-cj0585-002_fea7dfbcf034400b8ee5c7247f70d623.png
+20 | NIKE-ZF-001 | Nike Zoom Fly | https://authentic-shoes.com/wp-content/uploads/2023/04/527433_01.jpg_7ef692bc4cb443309e921f91de28204e.jpeg
+21 | NIKE-AM98-001 | Nike Air Max 98 | https://authentic-shoes.com/wp-content/uploads/2023/04/373399_01.jpg_217fefd105c84a38880ed7eaf329c9d6.jpeg
+22 | NIKE-HD-001 | Nike Hyperdunk | https://authentic-shoes.com/wp-content/uploads/2023/04/ao7890_400.png_fc16e1c95c1944ba8aff78ad25ce47f4.png
+23 | NIKE-AMP-001 | Nike Air Max Plus | https://authentic-shoes.com/wp-content/uploads/2023/04/ar0259_700.png_ac6903a6984a4c958d80366bd7d6d343.png
+24 | NIKE-ER-001 | Nike Epic React | https://authentic-shoes.com/wp-content/uploads/2023/04/346656_01.jpg_111bc9e3a1594cc4a5c4ace3f92e6032.jpeg
+25 | NIKE-AM200-001 | Nike Air Max 200 | https://authentic-shoes.com/wp-content/uploads/2023/05/Nike-Air-Max-200-Bubble-Pack-Whi.png
+26 | ADIDAS-UB22-001 | Adidas Ultraboost 22 | https://authentic-shoes.com/wp-content/uploads/2023/04/removal.ai__tmp-62ab3546dd47d_e056ac1d219e4f21a2af701ec4fee24e.png
+27 | ADIDAS-SS-001 | Adidas Stan Smith | https://authentic-shoes.com/wp-content/uploads/2023/04/8880_01.jpg_c2f0a7080647417eb4a17324fed9919f.jpeg
+28 | ADIDAS-SUP-001 | Adidas Superstar | https://authentic-shoes.com/wp-content/uploads/2023/04/8609_01.jpg_730e52ab95f04401a870e9ac2aa8aad8.jpeg
+29 | ADIDAS-NMD-001 | Adidas NMD R1 | https://authentic-shoes.com/wp-content/uploads/2023/04/61500_01.jpg_2b2b93d9d4a3416bbd7dbe6dd70aa93f.jpeg
+30 | ADIDAS-YZ350-001 | Adidas Yeezy 350 | https://authentic-shoes.com/wp-content/uploads/2023/04/94407_01.jpg_cd5eb6cd8c024b8ea7b28363dd60bc64.jpeg
+31 | ADIDAS-GAZ-001 | Adidas Gazelle | https://authentic-shoes.com/wp-content/uploads/2023/04/ba9600.png_4d585a6a3c784be485f10c332c73209e.png
+32 | ADIDAS-SAM-001 | Adidas Samba | https://authentic-shoes.com/wp-content/uploads/2023/04/fw2427.png_6f9c1be7d4794549b819df22d7a6a443.png
+33 | ADIDAS-PRED-001 | Adidas Predator | https://authentic-shoes.com/wp-content/uploads/2023/04/giay_bong_dja_predator_20.3_turf-removebg-preview_bf3eb3c1bfb3446193f4d16815371a36.png
+34 | ADIDAS-COP-001 | Adidas Copa Mundial | https://authentic-shoes.com/wp-content/uploads/2024/09/Giay_DJa_Bong_Firm_Ground_Copa_M-1.png
+35 | ADIDAS-PB-001 | Adidas Pureboost | https://authentic-shoes.com/wp-content/uploads/2025/07/1-duoc-xoa-nen-30-e1751964510506-1536x744.png
+36 | ADIDAS-ZX8-001 | Adidas ZX 8000 | https://authentic-shoes.com/wp-content/uploads/2023/04/main_f26becd574d54446859fc22209834e61.png
+37 | ADIDAS-FOR-001 | Adidas Forum | https://authentic-shoes.com/wp-content/uploads/2023/05/adidas-forum-bold-fy9042-trainer.png
+38 | ADIDAS-TUB-001 | Adidas Tubular | https://authentic-shoes.com/wp-content/uploads/2023/04/s75582.png_e57f06bdee224e89a2c17a6e942ac90a.png
+39 | ADIDAS-SB-001 | Adidas Solarboost | https://authentic-shoes.com/wp-content/uploads/2024/08/Giay_Solarboost_5_DJo_GV9137_01.png
+40 | ADIDAS-ORG-001 | Adidas Originals | https://authentic-shoes.com/wp-content/uploads/2023/04/cq2362.png_7f58be5e0691459aaece40c9ad2f6f37.png
+41 | ADIDAS-TER-001 | Adidas Terrex | https://authentic-shoes.com/wp-content/uploads/2023/04/fw2690.png_8ff2f2f43ee54a209f81b5d4e51583d9.png
+42 | ADIDAS-RES-001 | Adidas Response | https://authentic-shoes.com/wp-content/uploads/2023/04/ns-response-super-running-shoe-white-white-6-5-us-white-white-9159-600_73b0d3760e5c4079adb8c7ef875553ad.jpg
+43 | ADIDAS-DUR-001 | Adidas Duramo | https://authentic-shoes.com/wp-content/uploads/2023/05/fy4320-1.png_d2f6ae681d784b1794ce5-1.png
+44 | ADIDAS-LR-001 | Adidas Lite Racer | https://authentic-shoes.com/wp-content/uploads/2023/04/bb7051.png_a5c68681f6fd415aa3f7d8fff5f2916f.png
+45 | ADIDAS-CF-001 | Adidas Cloudfoam | https://authentic-shoes.com/wp-content/uploads/2023/04/h00944.png_9d4393ef80a145e991d54f93e4dfbcf1.png
+46 | ADIDAS-ADV-001 | Adidas Advantage | https://authentic-shoes.com/wp-content/uploads/2023/04/giay_advantage_trang_fy8955_01_s-removebg-preview_317451ca43984d2d854c490d66f1c473.png
+47 | ADIDAS-GC-001 | Adidas Grand Court | https://authentic-shoes.com/wp-content/uploads/2023/04/adidas-buty-grand-court-k-ef0101-a0a79322_c59d41d788d1453dab89152ff0cd2643.png
+48 | ADIDAS-CV-001 | Adidas Super Courtvintage | https://authentic-shoes.com/wp-content/uploads/2023/04/ee6325.png_460ca8a9e50249bab7fa2acb856a5edc.png
+49 | ADIDAS-BAR-001 | Adidas Barricade | https://authentic-shoes.com/wp-content/uploads/2023/04/screenshot_2022.11.07_10.40.55.699_a41758c8e6224450aefe72b646d6b06d.png
+50 | ADIDAS-AZ-001 | Adidas Adizero | https://authentic-shoes.com/wp-content/uploads/2023/04/41kvps2_nal._ac_sy300_-removebg_3e80b95b288c406ca09fe739a8cedf4b.png
+51 | PUMA-SUE-001 | Puma Suede Classic | https://authentic-shoes.com/wp-content/uploads/2023/04/pu352634-03.png_22dc0114c4e54a9696a33b362ce6de81.png
+52 | PUMA-RSX-001 | Puma RS-X | https://authentic-shoes.com/wp-content/uploads/2023/04/373236_01.png_881123654f42475193e69b4c87d08260.png
+53 | PUMA-SC-001 | Puma Speedcat | https://authentic-shoes.com/wp-content/uploads/2024/05/Giay-Puma-Speedcat-x-Open-Yy-Whisper-Of-Pink-397397-03-1.png
+54 | PUMA-FUT-001 | Puma Future | https://authentic-shoes.com/wp-content/uploads/2023/04/371149_01.png_792569b30de64d4f9b1ec86a8db78c6a.png
+55 | PUMA-ONE-001 | Puma One | https://authentic-shoes.com/wp-content/uploads/2024/04/Giay-Puma-One-Piece-x-Suede-Red-Hair-Pirates-396521-01-2.png
+56 | PUMA-TH-001 | Puma Thunder | https://authentic-shoes.com/wp-content/uploads/2023/04/367998_03.png_a578d8a5c8d04ba0885a6ee8dc6aa896.png
+57 | PUMA-CAL-001 | Puma Cali | https://authentic-shoes.com/wp-content/uploads/2023/04/9342300_180__1_e47e5b517e524f2e9b60537479546efb.png
+58 | PUMA-CEL-001 | Puma Cell | https://authentic-shoes.com/wp-content/uploads/2023/04/461778_01.jpg_ade31e42b9d54a7f9e0052e1d405190b.png
+59 | PUMA-IGN-001 | Puma Ignite | https://authentic-shoes.com/wp-content/uploads/2023/04/puma-193993-02-1_0e72f11750654720bba11fccca5a6e0a.png
+60 | PUMA-DIS-001 | Puma Disc | https://authentic-shoes.com/wp-content/uploads/2023/04/362040-04_5d260f5689b84352a175fe25e268cbe7.png
+61 | PUMA-BAS-001 | Puma Basket | https://authentic-shoes.com/wp-content/uploads/2023/04/363073_11.png_920a0417884043508c795ad4c6aec3f2.png
+62 | PUMA-CLY-001 | Puma Clyde | https://authentic-shoes.com/wp-content/uploads/2023/04/363835_01.png_6992a1fc2eee40a4a5427cc181ee020b.png
+63 | PUMA-TSU-001 | Puma TSUGI | https://authentic-shoes.com/wp-content/uploads/2023/04/image__69__100ab9898c0d48768803c8c9314a1d03.png
+64 | PUMA-LEA-001 | Puma Leadcat | https://authentic-shoes.com/wp-content/uploads/2023/04/372277_07-1_1024x1024_2x_1c4db1d438d446fbaff70c2b60da0b5e.png
+65 | PUMA-FIE-001 | Puma Fierce | https://authentic-shoes.com/wp-content/uploads/2023/04/191161-03_dc3ad7eb362b4965b5a75c8745ad951c.png
+66 | PUMA-ENZ-001 | Puma Enzo | https://authentic-shoes.com/wp-content/uploads/2023/04/193249_12.png_569b8f05a87e4384ab7e2954a39a28d1.png
+67 | PUMA-VIK-001 | Puma Vikky | https://authentic-shoes.com/wp-content/uploads/2024/01/Giay-Puma-Vikky-Platform-Pebble-363287-14-2.png
+68 | PUMA-MAY-001 | Puma Mayze | https://authentic-shoes.com/wp-content/uploads/2023/04/image_-_2021-12-24t172809.704-removebg-preview_2e0f359c84144e6cae4c5f206fe536fe.png
+69 | PUMA-SMA-001 | Puma Smash | https://authentic-shoes.com/wp-content/uploads/2023/04/original_6e96057557ee43b29461eb931cca1b6f.png
+70 | PUMA-COU-001 | Puma Court | https://authentic-shoes.com/wp-content/uploads/2023/04/court-rider-2.0-basketball-shoes-removebg-preview_6ffe01f39ed64ac2afc38925aa6a8ec0.png
+71 | PUMA-SPE-001 | Puma Speed | https://authentic-shoes.com/wp-content/uploads/2023/05/307171-05.png
+72 | PUMA-FLE-001 | Puma Fenty | https://authentic-shoes.com/wp-content/uploads/2023/04/366268_03.png_f4b89eb0f1c44fa7af2a87774cf76552.png
+73 | PUMA-NRG-001 | Puma NRGY | https://authentic-shoes.com/wp-content/uploads/2023/12/screenshot_20230718-130550_80a3e.png
+74 | PUMA-HRS-001 | Puma Helly Hansen x Ralph Sampson | https://authentic-shoes.com/wp-content/uploads/2023/04/372631_01.png_0aa058e2bc414fe9a36143c941cbf620.png
+75 | PUMA-ERD-001 | Puma Easy Rider | https://authentic-shoes.com/wp-content/uploads/2023/04/381026-01_1_1800x1800_c17f7859f66c4a2eadba89dbb9393eaf.png
+76 | CONV-CT-001 | Converse Chuck Taylor All Star | https://authentic-shoes.com/wp-content/uploads/2023/04/m9160c.png_9ff86c71e331437e8f1aec539ccb5e64.png
+77 | CONV-C70-001 | Converse Chuck 70 | https://authentic-shoes.com/wp-content/uploads/2023/04/533480_01.jpg_31f00c35db8b416ca57bf3b4d4d0db4f.png
+78 | CONV-OS-001 | Converse One Star | https://authentic-shoes.com/wp-content/uploads/2023/04/163252c-410x410-removebg-preview_2d8351433f034a93aed7202d6ec99be9.png
+79 | CONV-JP-001 | Converse Jack Purcell | https://authentic-shoes.com/wp-content/uploads/2023/04/164225c.png_668bb0bc741544e7a1904e3f36b13eee.png
+80 | CONV-RS-001 | Converse Run Star | https://authentic-shoes.com/wp-content/uploads/2023/04/171668c.png_dd2f892cb9134482b1871e76bf03f768.png
+81 | CONV-PL-001 | Converse Pro Leather | https://authentic-shoes.com/wp-content/uploads/2023/04/173199c_07f919fce57040a6bbbc5dcf9bff59e8.png
+82 | CONV-FB-001 | Converse Fastbreak | https://authentic-shoes.com/wp-content/uploads/2023/04/623d07b6d30efd3caa8f129e_12_duoc_xoa_nen_c31f782beeda4e75aaf2be15786292e5.png
+83 | CONV-WE-001 | Converse Weapon | https://authentic-shoes.com/wp-content/uploads/2023/04/converse-weapon-cx-mid-white-black-white-172838c-sneaker-packshots-0_415391cecb71428898c3a83ae11962e0.jpg
+84 | CONV-BB-001 | Converse All Star BB | https://authentic-shoes.com/wp-content/uploads/2023/04/170290c.png_0d2e8c6c099c4989811d2dd10d201c8e.png
+85 | CONV-SPJ-001 | Converse Space Jam | https://authentic-shoes.com/wp-content/uploads/2023/04/797305_01.jpg_0d33e90428db468d8cd46d95cbbceb77.png
+86 | CONV-CON-001 | Converse CONS | https://authentic-shoes.com/wp-content/uploads/2023/04/ck-purcell-pro-leather-mid-jake-johnson-beluga-black-black-166253c-cat_eab03355983147969f5956c5cc026640.png
+87 | CONV-GDR-001 | Converse Golden Repair | https://authentic-shoes.com/wp-content/uploads/2023/04/172424c_a_107x1_white-removebg-preview_f22fc022c267438fb82f60fa673f8140.png
+88 | CONV-ERX-001 | Converse ERX | https://authentic-shoes.com/wp-content/uploads/2023/08/0000208337908_03_rz.png
+89 | CONV-ASP-001 | Converse ASAP | https://authentic-shoes.com/wp-content/uploads/2023/04/167378c.png_2dfea16206834e81bcf7f1e411871147.png
+90 | CONV-ASM-001 | Converse All Star Move | https://authentic-shoes.com/wp-content/uploads/2023/04/1_81f8f4b8-6818-4f9a-a175-6d7edd_a6239ae257b54d91b2f6d59b2f0c1013.png
+91 | CONV-REN-001 | Converse Renew | https://authentic-shoes.com/wp-content/uploads/2023/04/170947c.png_b698aa9f6e9349e2aeb3382c6f54ac13.png
+92 | CONV-CMC-001 | Converse Chuck Taylor All-Star Lift Low x Miley Cyrus | https://authentic-shoes.com/wp-content/uploads/2023/04/562236c_660.png_228e7249098347538124bf700927de38.png
+93 | CONV-MOV-001 | Converse Miffy Jack Purcell | https://authentic-shoes.com/wp-content/uploads/2023/04/171851cstandard_e0e8553c5fdd44bb853ced3e466a4661.png
+94 | CONV-UL-001 | Converse Union LA | https://authentic-shoes.com/wp-content/uploads/2023/04/691653_01.jpg_4ce3833aa23d4cc7a8deff5904f6f119.png
+95 | CONV-FJ-001 | Converse Feng Chen Wang x Jack Purcell | https://authentic-shoes.com/wp-content/uploads/2023/04/169008c.png_e0f68798a1274e139ad6eca623c946fd.png
+96 | CONV-DOE-001 | Converse DOE | https://authentic-shoes.com/wp-content/uploads/2023/04/165550c.png_82b047d8095f4f32b873d6332de8ec5d.png
+97 | CONV-PT-001 | Converse Pop Trading | https://authentic-shoes.com/wp-content/uploads/2023/04/169006c_dbf3add01a5546a4934d95bd8c8a5446.png
+98 | CONV-CTA-001 | Converse Men’s Chuck Taylor All Star | https://authentic-shoes.com/wp-content/uploads/2023/04/170844ca-l_9734100d0ea4436ebabbf6aa5251c296.png
+99 | CONV-BBS-001 | Converse All Star BB Shift ‘Vegas Lights’ | https://authentic-shoes.com/wp-content/uploads/2023/04/a02513c.png_9a1381639805408fbfc771b249070662.png
+100 | CONV-ASS-001 | Converse All Star Sasha | https://authentic-shoes.com/wp-content/uploads/2023/04/s-l1600_-_2022-09-27t133411.206_d79ce99a428f4044bf49bb7ffde6ff9e.png
+101 | VANS-OS-001 | Vans Old Skool | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a4bvfxg0.png_03e6dd13710e412a98de5ca38886e269.png
+102 | VANS-AUT-001 | Vans Authentic | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a38enu6d.png_88bc42e66a55418f8e7263a01f937ab6.png
+103 | VANS-SK8-001 | Vans Sk8-Hi | https://authentic-shoes.com/wp-content/uploads/2023/04/vans-gore-tex-sk8-hi-vn0a4v9x2ul-700x389_6bfb1ce98df243919d19a1a7699c4065.png
+104 | VANS-ERA-001 | Vans Era | https://authentic-shoes.com/wp-content/uploads/2023/04/563336_01.jpg_4b2efaf0116a44b7a55c8050677beb70.jpeg
+105 | VANS-SO-001 | Vans Slip-On | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a3wmdvo4.png_35a53ef864ca478595b389671f24cd31.png
+106 | VANS-HC-001 | Vans Half Cab | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a5kx6448-alt3_879357a04fe047c7b789d648d2643809.png
+107 | VANS-CFC-001 | Vans Comfycush | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a3wmatff-1_1aaa45f0a2da4c1ebfd080950c4d3509.jpg
+108 | VANS-SK8M-001 | Vans SK8-Mid | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a3mv8q69.png_df293132142b4a5ea9950c8f1fac77f0.png
+109 | VANS-AT-001 | Vans Bess Ni | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a4btht80-1-500x500_21a669c5f7_e94c8925638448cab7d8ab5586f49252.png
+110 | VANS-WA-001 | Vans Ward | https://authentic-shoes.com/wp-content/uploads/2023/04/anh_87a62117a9a449eb9f6e5cc1b91f87f4.jpg
+111 | VANS-OSP-001 | Vans Old Skool Pro | https://authentic-shoes.com/wp-content/uploads/2023/04/vn000zd4y28.png_e146c6ed88bb4e738c10f2397f6553c8.png
+112 | VANS-PS-001 | Vans Pig Suede | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a4bv618z_ece3b96993164d3981d089ca208e7041.png
+113 | VANS-SK8P-001 | Vans SK8-Hi Pro | https://authentic-shoes.com/wp-content/uploads/2023/04/vn000vhgy28.png_8e886af16e3447e4a0f742e992e2742c.png
+114 | VANS-CSK8-001 | Vans Classic Sk8 | https://authentic-shoes.com/wp-content/uploads/2023/04/d5invy-500x500_4f9e584f284b462488d86107773413db_grande_598bd55dc4f04c60b72ea7f67e657d08.png
+115 | VANS-UR-001 | Vans UltraRange | https://authentic-shoes.com/wp-content/uploads/2023/04/screenshot_2022.10.13_16.36.55.860_4425c8dadd3147b1b2bddd4f698490bf.png
+116 | VANS-W-001 | Vans Wmms | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a3mvz187.png_3ad8fef6bc264f979c59a81c3dd1f68c.png
+117 | VANS-KE-001 | Vans Vans Kader Sylla x Era Pro | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a347l0v0.png_1f70e83b7bb44d089730ef5badeb45f0.png
+118 | VANS-RAN-001 | Vans Rhude x Acer Ni | https://authentic-shoes.com/wp-content/uploads/2023/04/683508_01.jpg_f095609f30c548579e16abc22309c528.png
+119 | VANS-ANH-001 | Vans Anaheim | https://authentic-shoes.com/wp-content/uploads/2023/04/tai_xuong__4__03bcd42487eb495cb083d693dd2384b9.png
+120 | VANS-CB-001 | Vans CheckBoard | https://authentic-shoes.com/wp-content/uploads/2023/04/flvnas1u13_75_1_475_32c4a8569633_26c326a83ae3488d99b58c508118cb19.png
+121 | VANS-GIL-001 | Vans Gilbert | https://authentic-shoes.com/wp-content/uploads/2024/07/quasi_skateboards_x_vans_gilbert.png
+122 | VANS-B-001 | Vans Bold | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a3wlp42l_9ff1ee22f5ef4febac06_b0ece177608a4bb388466198a2a8359d.png
+123 | VANS-MOS-001 | Vans Mule Old Skool | https://authentic-shoes.com/wp-content/uploads/2023/05/2_a9ff7156906644d39f0fa4ae483e6d.png
+124 | VANS-LLX-001 | Vans Lampin LX | https://authentic-shoes.com/wp-content/uploads/2023/04/vn0a4p3wn8k.png_1b004cde24c2472a86907f08b47cfb61.png
+125 | VANS-XL-001 | Vans X Lazy | https://authentic-shoes.com/wp-content/uploads/2023/04/61lqegtwi3l._ac_uy625__92473de5d7164934a876cbc9aa2f8b35.jpg
