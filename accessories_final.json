@@ -1,0 +1,1704 @@
+[
+    {
+        "brand": "Nike",
+        "products": [
+            {
+                "name": "Nike Everyday Cushion Crew Socks White 3-Pack",
+                "code": "NIKE-SOCK-001",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "White athletic crew socks with black Nike swoosh logo, cushioned comfort, 3-pack bundle",
+                "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,c_scale,w_300,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/jxfexgbkvpkmynfrgwaj/U+NK+EVERYDAY+CSH+CRW+3PR+132.png",
+                "quantity": 100
+            },
+            {
+                "name": "Nike Performance Crew Socks Black 3-Pack",
+                "code": "NIKE-SOCK-002",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "Black crew socks with white Nike swoosh, performance cushioning, 3-pack bundle",
+                "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,c_scale,w_300/6bcb9bbf-03c5-497e-bdae-dfb49e062d30/U+NK+NSW+EVERYDAY+ESSENTIAL+CR.png",
+                "quantity": 100
+            },
+            {
+                "name": "Nike Dri-FIT Training T-Shirt Black - Men's",
+                "code": "NIKE-SHIRT-M-001",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Black Dri-FIT training t-shirt with white swoosh on chest, moisture-wicking fabric, athletic fit",
+                "image": "https://cdn.shopify.com/s/files/1/0603/3031/1875/products/2_aa462596-4511-4a42-abd0-6ecd84612872_1080x.jpg?=75&v=1694779803",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Sportswear Club Fleece Hoodie Grey - Men's",
+                "code": "NIKE-SHIRT-M-002",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Grey fleece pullover hoodie with black Nike swoosh, soft cotton blend, kangaroo pocket",
+                "image": [
+                    "https://www.vsathletics.com/store/images/P/bv2654-063.jpg",
+                    "https://images.prodirectsport.com/ProductImages/Main/141127_Main_Thumb_0559841.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Basketball Elite Jersey Blue - Men's",
+                "code": "NIKE-SHIRT-M-003",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Blue sleeveless basketball jersey with white swoosh and number 23, breathable mesh fabric",
+                "image": "https://images.footballfanatics.com/usa-basketball/mens-nike-devin-booker-navy-usa-basketball-player-jersey_pi4400000_altimages_ff_4400101-8f328bc7d67dfe850ce3alt1_full.jpg?_hv=2&w=1018",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Pro Training Tank Top White - Men's",
+                "code": "NIKE-SHIRT-M-004",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "White athletic tank top with black Nike swoosh, muscle fit design, Dri-FIT technology",
+                "image": "https://thumblr.uniid.it/product/202470/cb487763315f.jpg?width=3840&format=webp&q=75",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Yoga Crop Top Pink - Women's",
+                "code": "NIKE-SHIRT-W-001",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Pink athletic crop top with white swoosh, fitted style, soft stretch fabric",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQuYUG3DyktzkS5pgmgNaEaewIKt3tZ7ILVxstmyN9kr1M0vqQxmDJGlqM8XAf95AJxz0lVj9WozZlWU80f0MK88VStEQEVDBYzPOM5qbjyrXvJkx1aPgfh",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTldnjyKKlf98NT8T0tadpCkJcWkxUa8m6miDT1zBUcxd1eemUMsgp1U8Ss7kvN4hNuevZzi8Wd0MgF4Zt1KohojDoe6CRbXPTCV7X8_Iq7OHwaZbC0dSh5"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Pro Sports Bra Black - Women's",
+                "code": "NIKE-SHIRT-W-002",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Black sports bra with white Nike swoosh, medium support, racerback design",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTJvS2ovJDXunfJqBHKBFpf4s4Gd-_B-sDVg5LSlEyPfjlmV0_BDDYK0h4d3Tfb96SH1eICI6vO9EcYAH_5oQjvkY9XB6s6_womens_sportsbra_black.png",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTYCwT2f-JvUQbMj14ax_bdYeIFol412Ja4Ulv6_9f5PXTNjmpZddKLM3Jb_Q8pqTprH0pdYzEox3V2f7k6AnQuBkSjiSMj"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Dri-FIT Tank Top Purple - Women's",
+                "code": "NIKE-SHIRT-W-003",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Purple athletic tank top with white swoosh, loose fit, breathable fabric",
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRuNUM4pDFZQIp-ox850-gNtw_Hng_IzhpT_GCMsRx6osieMRsTyGA5J9bqg03r0HzJklOm-FS5myWRm3A3lzjiQpT_wz-l",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Training T-Shirt White - Women's",
+                "code": "NIKE-SHIRT-W-004",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "White Dri-FIT t-shirt with black swoosh, relaxed fit, moisture-wicking",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRJLt1pJf-z9u599-OhOVD1ZxnDt_nE85VQXcQq_NG81U9VaggRZ5idCVaWKBArWghiNv4RTygFtBW9SIlDOd1r7it7ben-xg",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQeuGf-u1YlYevnLno68P4oFjlkIf2HFbMVTKpi4sJwRjzcUFYrXQKTRebKyctSfHu1Aaqamo3nEldoA5GfZUW3TrRWrW6q"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Tech Fleece Joggers Black - Men's",
+                "code": "NIKE-PANT-M-001",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black athletic joggers with white Nike swoosh on leg, tapered fit, zippered pockets",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTeJuou0HCanwUrBy5jeJNOMdn_jsmSRHtkTj-1DtqJBFL_EWcl57TwJsGlAzmjAlqPm0ecZ7xKpt8b4XdYuVHU3SgkKTFaWmXvRvPJgXykfy-shxtiVcvA",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSo_0whaG525GR2jkMQRmWRCwFPhowHPXeolun6Dur5gcxiRsxD918Buqm495lJSL7uRo1yCBJN7ub0XIRZPuDgdRiGQ6Tp1vScTii--TkmpzCGXG00a8yNow"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Flex Training Shorts Grey - Men's",
+                "code": "NIKE-PANT-M-002",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Grey training shorts with black swoosh, athletic fit, built-in brief",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPbkThoI1Y2VbLF6WIUMj3xE6aI8PAyg-xx2L0O2W46mOEypZl8XFCnXh4jjSDGstFzlBjtZO6ybtGS-5VqdYamIn0yszmZRIUxWwVq_36MMfA1WhPof3Gv-o",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQnuoSIJRdsX0mtmWrjoHw8xAxU2ek2q6FmYZ5kpkZHHAAp1Tb-aZaDeeSKxYuuG-_59kW4cCvQzdt71TSdrRjQOEK0btmr"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Sportswear Track Pants Navy - Men's",
+                "code": "NIKE-PANT-M-003",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Navy blue track pants with white stripes and swoosh, athletic fit, side pockets",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQsy9_sziVoYOzjnL_MWDFXh2jUvm7ocfw6cxTm6Q45UnZTgcotmA8qr934XJiSbk_9ecIJUkF7TA8Pi4TAPaOSbtkqvBhmIKlV_Bavzmod-M1Tr_SUcCM_kOA",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTa9I0bXAcKK2H3y-1uljjplnA2Bvtq71KbEZlHG97bVA42SU6k7aidFXxkfVCfsrqFQ1UbLRessavfUqp6201s-Fs3oQsm"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Pro Compression Tights Black - Men's",
+                "code": "NIKE-PANT-M-004",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black compression tights with white swoosh, athletic fit, Dri-FIT fabric",
+                "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSarCb3jJ2R3jamuQKrGELCHqKI6cuISkAEBhumXT5Q2jNmEgI1AzQm7p8HqQ8NV2PO6MD23nN3T-5Vhx-W0bGomDPTULnTVh330GT_FxnrkigSu7RljsNTmXY",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike One Luxe Leggings Black - Women's",
+                "code": "NIKE-PANT-W-001",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Black high-waisted leggings with white swoosh, 7/8 length, squat-proof fabric",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQyAUkmLgbVo-YLetI44z3dgnQaR7r8ZuQW3za15GjyJUfLUwPmCe1CRvVV22_Ii_bP8Z6EZSQYT7xGqGBtXwjfCiN_z9IfNGkQIC4rBTU50gVN2qqFYYKULA",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR_9iMI1zBmFRicKp0AubhjoxkJoFug2nonVwzYqskmASn6_zVE4_OzEniGMDxCyfWvtbbdq_XYMYxPSZ3RwBwg-Pf1y3_0RNFi-5Os5aRysvI4ROShKD25wIKN"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Tempo Running Shorts Pink - Women's",
+                "code": "NIKE-PANT-W-002",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Pink running shorts with white swoosh, built-in brief, lightweight fabric",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSi7Tk5JVyniX1GoAYR3gchshJW0n2lcZRpPtFYXXuSTK03mFwL5gyyq7g0bJtpABqmXD3c5jn3OHiDQ4FdHA_6EFvtIxMeW4mcf5jO9ZKr37F5XAN1SlVWkQ",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSi7Tk5JVyniX1GoAYR3gchshJW0n2lcZRpPtFYXXuSTK03mFwL5gyyq7g0bJtpABqmXD3c5jn3OHiDQ4FdHA_6EFvtIxMeW4mcf5jO9ZKr37F5XAN1SlVWkQ"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Sportswear Fleece Joggers Grey - Women's",
+                "code": "NIKE-PANT-W-003",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Grey fleece joggers with black swoosh, relaxed fit, ribbed cuffs",
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTiob-2XSlmaeZZksAt_09p5HCEc4vblBVDVxb51THiVA51pV9_DXU7Kx92S5M7VtOA7lynvWsA-M1FJR1AvKC7MpWMTRyJVm324eZ6EVZE7uMbiytlcQDomQ",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Fast Running Tights Purple - Women's",
+                "code": "NIKE-PANT-W-004",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Purple running tights with white swoosh, mid-rise, Dri-FIT technology",
+                "image": [
+                    "https://ash.vn/cdn/shop/files/466ef96b136c4022fcbb1fd95854d197_1300x.jpg?v=1763107095",
+                    "https://ash.vn/cdn/shop/files/d49df037ef965febbdfdccf200a6ba63_1300x.jpg?v=1763107095",
+                    "https://ash.vn/cdn/shop/files/b34bcc268fd49214720b0d4e0dad73b3_1300x.jpg?v=1763107095"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Sportswear Heritage86 Cap Black",
+                "code": "NIKE-CAP-001",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "Black baseball cap with white Nike swoosh embroidered on front, adjustable strap",
+                "image": [
+                    "https://authentic-shoes.com/wp-content/uploads/2023/04/2035888_l_bf8dc3a9530a4b4dae83d61754a2a78d.jpg",
+                    "https://authentic-shoes.com/wp-content/uploads/2023/04/2035888_2_l_9379d3b32318493398a2eec8f4bded25.jpg",
+                    "https://authentic-shoes.com/wp-content/uploads/2023/04/2e0e368471526ce59f88f24b21e8f2c6_4aa031545dc94ce89612bf35869176df.png"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Nike Dri-FIT AeroBill Cap White",
+                "code": "NIKE-CAP-002",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "White performance cap with black swoosh, moisture-wicking sweatband, breathable mesh",
+                "image": [
+                    "https://supersports.com.vn/cdn/shop/files/FB5682-100-1.jpg?v=1717496180",
+                    "https://supersports.com.vn/cdn/shop/files/FB5682-100-2_151a8987-1ac8-4f84-9c31-c8d609fd743c.jpg?v=1768455433&width=1000"
+                ],
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "brand": "Adidas",
+        "products": [
+            {
+                "name": "Adidas Cushioned Crew Socks White 3-Pack",
+                "code": "ADIDAS-SOCK-001",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "White crew socks with black 3-stripes, cushioned sole, 3-pack bundle",
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQRL2xJoyTRqjo8Ga38bv4WVJp3Ra3JtZOTu7EeBIqxaQqJ8uBpwi9YJMQOpkyJ-FETX0cW25rD2WzWnvfdk01Q3AvO1JO9",
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Performance Crew Socks Black 3-Pack",
+                "code": "ADIDAS-SOCK-002",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "Black athletic crew socks with white trefoil logo, moisture-wicking, 3-pack",
+                "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT2CFnAaJWZtjzJZhzAL941J_1L1h6Ldq1hgkeVr58MnxjpNrurysUPoFgU-gK2bfP8uQgzHnq4TiG-mihy6uSzrMnrM4PS",
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Tiro 23 Training Jersey Black - Men's",
+                "code": "ADIDAS-SHIRT-M-001",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Black training jersey with white 3-stripes on shoulders, Aeroready technology",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRCsfLKrITvHDq6ZHNI74M3Mkpsiv6wCE5-FOLbyIxTEgWyPpj_0aeyKohXi3S_M6qTS_8qgSJ-0_I3G30sPTE6lMGJUHiIxrV1LUtK1tPNnVfoDuh_xZUv",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRFJhlKgRxxyeNMTNNP8dMQMTUxXi7OGcCK1BXSl565FrM9xsmTqF29D8GGHjsDqY_A6dmRgMzJLFoDvBfphU5jJlRJgRfBSLJ8yMHmskBpLTrrD5oLxuLg9rw",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT2qNqWAqSYArRdOp_92wDKKp11YB7lk-kZsqp1uqzpYhPL7DFb7HEww5Tuq5xlk-iwvbbGUuBEFb9EE0jmgMOYL6kibcAK0aUVqLjKvVQs9Ro-3U-w60m7Pm4"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Essentials 3-Stripes Hoodie Grey - Men's",
+                "code": "ADIDAS-SHIRT-M-002",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Grey fleece hoodie with black 3-stripes, kangaroo pocket, ribbed cuffs",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQnfw_wCh1ezaYHVVQr8uNxtPdbYBMsfWEqt0vkxXqaO4d5NXbmrxTIkal03K-pSpVayhOitLy8pH5IeJL6eJ4S-DMLqj0A",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRzR7OahAomcb9JiF092la-Gm2dOop34l6L1wx9ilncgNk6WGro_klsbBbUxldyGZla516sE0uBZG5FymwxfUnYrvj_F9L3Lw",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtL4jM0SJTtl7Ulesry1V-KzCIF-yHWq4OzNTh8S1I_ow9gE5mWd6wDz22gSPEyp0RqtqaZrqNlSPx7QGXWlAM8krGveTb9Q"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Squadra 21 Soccer Jersey Blue - Men's",
+                "code": "ADIDAS-SHIRT-M-003",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Blue soccer jersey with white stripes, breathable mesh panels, team badge",
+                "image": [
+                    "https://supersports.com.vn/cdn/shop/files/IN1502-1.jpg?v=1727859671&width=1000",
+                    "https://supersports.com.vn/cdn/shop/files/IN1502-2.jpg?v=1727859672&width=1000",
+                    "https://supersports.com.vn/cdn/shop/files/IN1502-3.jpg?v=1727859672&width=1000"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Own The Run Tee Navy - Men's",
+                "code": "ADIDAS-SHIRT-M-004",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Navy running t-shirt with reflective details, Aeroready moisture management",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4j0bBJ5UlDwOM9nc1A6gVl5VD_jhYmq_X7tMih8gnfM39nFJTHl3MlM-iK7kR7-9Jyr_BiBz_wqIoj8-peqFsqBbrlxdU",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPzXZFa3zUjA-KqJ0-kKv5pCX4H3RQkoqu2nEtsirBFvRp0Zt2sqhP6WdDlHPLI6K6bbOsGxMXoPsLEdaJDMr_VDBitvbs",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQvb-UkUT2DRd9Hl247qyldRUr1QBwsDvYHdFvO8ICmoU42VgP3p4-J1U-ApEnk2Pc622xmyCRQUpnng3gHloFifcuLJ3a0"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Designed 2 Move Crop Top Pink - Women's",
+                "code": "ADIDAS-SHIRT-W-001",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Pink athletic crop top with 3-stripes, fitted style, soft fabric",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRf6bqk0fTpN56WXEr_1l39UCGmJgGpSf_upzvxeXJwtgyY1M8jyxfTqRMcNtUNYalw0dBFK8RRXKXd9okvE1H-egkhE90",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS8fxjz_CkRfImQvsiaMNNlyWBwYgYTPp-fk4yYsjWeXs5seFMt9oAQJJUDGUlXG_ovpESG02u6fqe4agP16TONkrqohAUK",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRyZzPHYoZhU9Sat8Trr0WfBpx931AYsInfBc_ZZeru6lu6ckeQslCMJh9uME3tZjnFnpUsvlXtzgQI2ujGVL8vSpKePkLT"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Training Sports Bra Black - Women's",
+                "code": "ADIDAS-SHIRT-W-002",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Black sports bra with trefoil logo, medium support, racerback design",
+                "image": [
+                    "https://ash.vn/cdn/shop/files/4A0688_000_BLACK_ea173412-0172-4095-95a5-71416bf6e584_800x.jpg?v=1763011686",
+                    "https://ash.vn/cdn/shop/files/4A0688-000_04_5f1e3be6-3a8a-481f-9533-1e2788a0d3f8_1300x.jpg?v=1763011686",
+                    "https://ash.vn/cdn/shop/files/4A0688-000_03_9c926aa9-7a21-45f2-83a6-0cd6cc1caf2d_1300x.jpg?v=1763011686"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Yoga Tank Top Purple - Women's",
+                "code": "ADIDAS-SHIRT-W-003",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Purple yoga tank with 3-stripes, loose fit, breathable fabric",
+                "image": [
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c721b0fa416645228ad599ff05b3f3b9_9366/Ao_Tank_Top_Cotton_Lifestyle_Logo_Nho_Essentials_Mau_tim_KB7127_01_laydown.jpg",
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a332add0a3e9417a982cbbf873dbd65e_9366/Ao_Tank_Top_Cotton_Lifestyle_Logo_Nho_Essentials_Mau_tim_KB7127_25_model.jpg",
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/356c71cf2ce9410da19d378bf5f8079c_9366/Ao_Tank_Top_Cotton_Lifestyle_Logo_Nho_Essentials_Mau_tim_KB7127_23_hover_model.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Essentials T-Shirt White - Women's",
+                "code": "ADIDAS-SHIRT-W-004",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "White cotton t-shirt with black trefoil logo, relaxed fit",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSK1JO8aL1Rss_skce2U2MXi2RVP4fj9KtoYRT1poFSW3c1l9mIScTbk9lh07PJ7phEtGkHJCbLDYVfTGVG1Y8BDkywXnWVTA",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ41dzkTBOrpYYJLyb_VylBwH0TFqGsEiDDFK8s3HKKWU59Mry_DFAoIFfJigW5fA7fISoTjeHm1-oXliYOinV2a6NbJGC7fg",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSxxQySKRaYSL_LAyQ2J1IxonMvhmqkeWPKNMhKdsUI1Pc0z1eanZr3KkHtq-KqcDDT2uwzS7pd-QddwFI3vnGrMUrTBzBM"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Tiro 23 Training Pants Black - Men's",
+                "code": "ADIDAS-PANT-M-001",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black training pants with white 3-stripes, tapered fit, zippered pockets",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcThTQQBC0zcINSsqRiNKIWfez0ehwFXL4unolAatLLHxPhF71b4sT3Y9f0wemq2lkd5GoQxgd_iPoSnO2RjwxaQOzfT9AHqXMVWROjheHnPVLPQf7Fk_L3bdQ",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwN-wa839WlUSiEbLbgM26R8eLK8q8I7EvwVTzqIg5Xq_jjyORgq81wrD-MDS92RF2S1MFIlz7pgwfeEPMvjG5At3nu__fxWCz2WthKffRlG3khfG-FUxJqzs"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Essentials Fleece Joggers Grey - Men's",
+                "code": "ADIDAS-PANT-M-002",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Grey fleece joggers with black 3-stripes, ribbed cuffs, side pockets",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ9EBzWfkzmroajX-NvX9VXPRk5cAHgnndoUn8yHruAJvSw_Hyupr-PewphpGfUSmElakmuGMZeVhXsQuJPHMwtZaAYpdjk",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTO4h16UBIPMNYhJYhG-9UB4QP0dl3sIMpbchpLWKTugGDPpFj0oDXby7n_9sVE2YpltsC5VnZIsMXONdcXtA-Hi82F2lfQAF2qvtNBjDh7F5tdh-62Wu_Z",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJn0xdDtSWoyKzZ40CaVNHfFRXXm-rwXAFgEzDDSFAYjXw0EvwF0aq3s90kjcJ670Nv4kIz916dziihWLUsgWyl-TxyhPVP9JUE16aqYF7mB4f727buDbIAw"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Own The Run Shorts Navy - Men's",
+                "code": "ADIDAS-PANT-M-003",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Navy running shorts with reflective details, built-in brief",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQstyVe87Hh7ugUjDyCYDv58FvZSBINWYaqx7FS-tWg0fYkVdU50dgV6dp5-n_pOGwEA_7mYky-xzL38xcREAoDVjVtafw9Qw",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRv0QS1HBaFQyh-gKQ3sKj4DtxHAUaHanBEyCWPS5RL2cgDfWfNKSj7CqrIuu1YyJKsmj3GA4YWl032Uxmdxyx55AI8zFdYnQ",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRqu011dU4ubDG1E0mQjJSX2qJTDhwf0xYxsMHs4TeLbkABLAtD2SnZtMhHnIxJ59QG400M6P_D1RI_EYeXBi6b_CACEAwEqg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Techfit Long Tights Black - Men's",
+                "code": "ADIDAS-PANT-M-004",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black compression tights with 3-stripes, Aeroready technology",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ3KVP1ZXIeFXDlqVW5DDEZpsWyQKPdnxxLv3Ym-CJ0fiW4Jj5347RyOIlifc2M3rp3q4UCTujxhtBsqhJEJ6yaB-c5A3N_",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4dFVZ0k1y_wzex-_CK-69Yovl9slmLq8JhSqiG_GASKIjA81QABWoKKjvttilhSPURaOA9-mpxNSYj6q-UYHqbL7CBNUa8g"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Yoga 7/8 Tights Black - Women's",
+                "code": "ADIDAS-PANT-W-001",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Black high-waisted 7/8 leggings with trefoil logo, squat-proof",
+                "image": [
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/51d484ce2b52490eb4215923e31a9590_9366/All_Me_7-8_Leggings_Black_JW7584_01_laydown.jpg",
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/227a33aa9d2342f2a6b97a4694fdcb43_9366/All_Me_7-8_Leggings_Black_JW7584_21_model.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Pacer 3-Stripes Shorts Pink - Women's",
+                "code": "ADIDAS-PANT-W-002",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Pink running shorts with white 3-stripes, built-in brief",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTPRMfyfafN45dE-FlyAnSPOQpNclTMEoFRGeSkluQUy0z7X-w10smLyebkD2Z8U5H3iO_ZXeGjT0Nb4ykgXhRv6hVpmFk0DhD9WOqGariE7UICyAhYMlKYVLY",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTa_lQTFua3KzPuJpr-xkEB_MAsySkKCymRxbhCZAF7EKaUE8IcpMqfbyqKbAooxdvrRKTqOIesExeTzwQI7oYPYaqeluQ1yPnEqoupVeiQsMYV6pEJTeWy1l8"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Essentials Joggers Grey - Women's",
+                "code": "ADIDAS-PANT-W-003",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Grey fleece joggers with black 3-stripes, relaxed fit",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTZi3jqHHfw_iq4o_LWo99vQemz-tY75v4T1n6ChG1VkcdnNr27sVVMuwy0M7-vw1fnIUeZvtZP_H-MHtcfjdPMTCT6N1bmrw",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRx-s8qFhCHC4aeJH2V_b2Jr32odfihITh1f3Go7APFhgEE42Oca_0KY-skC7px3IPuG0vLGst2mxt3QmFDYOUx7hpiRYmqfCyrWXgB85c1wrgkWKW1BMY8AA"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Designed 2 Move Tights Purple - Women's",
+                "code": "ADIDAS-PANT-W-004",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Purple training tights with 3-stripes, mid-rise, Aeroready",
+                "image": [
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/0b229a1b8a744075a0ade36208a4b12d_9366/Quan_Legging_Det_Gan_7-8_adidas_All_Me_Mau_tim_JW7591_01_laydown_hover.jpg",
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/bf7a8de1091e43ebafa59a2a57acb9ec_9366/Quan_Legging_Det_Gan_7-8_adidas_All_Me_Mau_tim_JW7591_21_model.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Originals Trefoil Baseball Cap Black",
+                "code": "ADIDAS-CAP-001",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "Black baseball cap with white trefoil logo, adjustable strap",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTVJ6WKp2rnHWSjegvPUBdHEu8vOMd6RWLXx5QqgNVH_ygF4dLCVNPKpr_x5gIkM9Sd7MrALuePwdsetMlMlkJ3RMyJpaBnCbqJcO-TYqVDHXwPuEsZu91t6wY",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQt0QZB_oLmw4NSJng3VwvfTcQqG6uo3DTMw_brhY5I7O-VJACo2yDjlPIAhT2YWh7AIEP1HIHVFIMfnBRfEUJEx4zwmVKu",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQGn2LA_xULyi3FL8bvIske7SNqnYuaLld0eMxKILyUXk4e1dObKyjHoq6IftaPQBen5WrUdhPvHm7-kbrnel5S2AoRI47KWA"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Adidas Aeroready Baseball Cap White",
+                "code": "ADIDAS-CAP-002",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "White performance cap with black 3-stripes, moisture-wicking",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhgdm02Lfh41E0ztzFfgf5vFmwuT22QOs__FaOTwHmSfQK9zd5iGIVw8WgUlLoKq-8kVcpRaGH9S0Q-KtcWp88gteygX3CJA",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSTNuHnY1Jz4WV0I3-Zo5bHHNEGYRxnxpcd6O8YvmmnQngjnTItHbD8TXU_xWdiHyfrqYnH5aWXQLLNRSk7v1LoXRvFB4we",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRrKwpJ-k8Zks3RgY45wKzjRU9QuT2NYmetR8lS_CqxcQYZTzy44nUwWll_SfgjBbm60RKFmh4s9uwnJE6rlkz5SSVB-Cfx"
+                ],
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "brand": "Puma",
+        "products": [
+            {
+                "name": "Puma Quarter Crew Socks White 3-Pack",
+                "code": "PUMA-SOCK-001",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "White quarter crew socks with black Puma cat logo, cushioned, 3-pack",
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSRppBX9lH0UXkbbHtubqFdkxfRthAkmPvxL_kJ6RTPXJhfMiOXskrPvFVHmN6aQ97UuE7U9daUbvuP4wsuJQz7-n-X2BTaYsZTPZitHj0FdxJkja33gWlkFZs",
+                "quantity": 100
+            },
+            {
+                "name": "Puma Performance Train Crew Socks Black 3-Pack",
+                "code": "PUMA-SOCK-002",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "Black athletic crew socks with white cat logo, moisture-wicking, 3-pack",
+                "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS3aJ2B0EW5G0p717B51UvSrm29hCAR0EIN2An8by6X0bx7hjYUxMnX_KwanBdDrklR56WQHnFAo9QY3bYEI9M6u6WhRNX8HJdIt0vR59xTdU5uSJxFiVveXA",
+                "quantity": 100
+            },
+            {
+                "name": "Puma teamFINAL Training Jersey Black - Men's",
+                "code": "PUMA-SHIRT-M-001",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Black training jersey with white Puma cat, dryCELL technology",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTWPGAI3hLx3Yb6gEsDtC40HBofgGP8YT7yIIplb09S0swlcBNjZx9861xd2kHJIYhQddUZfaxxv8ZVHcblFyNIDMHdG33awteBw7JpYzOLqPMN7fqhj5OB_pU",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT3nJyIeIvBDlfRaxJfy7WlbGSnGOBIQr_jZ_qxh2SgzalpuaMcnev225YlEZLnOQMeT9nzh-maODc3ELZzBsXXQs7QavJWDjyKQwMZH97BM03J4JO2l8yWEg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Essentials Fleece Hoodie Grey - Men's",
+                "code": "PUMA-SHIRT-M-002",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Grey fleece hoodie with black cat logo, kangaroo pocket",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQevWIVafJiX3rVL9Jt3Hv2N_QWBf07Qz2mwDWHTUQDe4jeVwqF39gVON2oQUNT1iyCSSyE_BZfzWHcqX89fGddxKGaP80dozNSdfYMZx1LztvUZlaj_LJN",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ-8V3rkaqyaDVrOa_7Wj0f7DcEk9f5abfreVPmucY1ZcAGoyxkRK-Y4avxSxzjBlimst9JKGSgnBTkh01IPuEUSkSor4RG"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma ftblNXT Soccer Jersey Blue - Men's",
+                "code": "PUMA-SHIRT-M-003",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Blue soccer jersey with white details, breathable mesh",
+                "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSVktz-QlhHWtXXI6MU9L_8oTDpXV84Weig6fEvqzWQJg1JIjl1kSo1Mqovd8hTrqJ6T-aEWLgUdIkj3Oly9MCOOBWIVK68ZizrBpIN2Xg-7EyFf81jzSch-Q",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Run Favorite Velocity Tee Navy - Men's",
+                "code": "PUMA-SHIRT-M-004",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Navy running t-shirt with reflective cat logo, dryCELL",
+                "image": [
+                    "https://product.hstatic.net/1000391653/product/53623616_0bf37d014a3945f9acca6653ddbf412d_grande.jpg",
+                    "https://product.hstatic.net/1000391653/product/53623616.2_1cc48ee711564ce493a2937dc09ef5c6_grande.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Studio Yogini Crop Top Pink - Women's",
+                "code": "PUMA-SHIRT-W-001",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Pink yoga crop top with cat logo, fitted style, soft fabric",
+                "image": [
+                    "https://supersports.com.vn/cdn/shop/files/52846188-1.jpg?v=1764296793&width=1000",
+                    "https://supersports.com.vn/cdn/shop/files/52846188-3.jpg?v=1764296793&width=1000"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Training Sports Bra Black - Women's",
+                "code": "PUMA-SHIRT-W-002",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Black sports bra with white cat logo, medium support",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRp9EPXHYwjjomWsril-e7BrpWrE0KudLJPXSnnIn0sQODlb7ZNVKDqT0zLayJQxGV-TQ9SXCktVRndBsFU7d5M6BOBSB1wo2GvU8Hze5BAbn7vIVFAZc0wieaY",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTVkWHOYqFiydZSQZXIhLyTvy8hC8zrcf8pveJ1jnLXBB_xpcSLxvVVOkh3fc-mg9rpt6KsaSCZGEbMvTd59FMFrnBNjjDVm2Esbkv2CWz0"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Active Tank Top Purple - Women's",
+                "code": "PUMA-SHIRT-W-003",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Purple athletic tank with cat logo, loose fit, breathable",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR5rPz0cX9mOqhwmE4Um7Q0U52zudm_L7rzFc2aI-a8JoecBgcltxJ09tHCKmab6i1XQy-VQf43H1c2k1YC4f3Hs3cvqkXJC6q3EQ2jcK1y",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTKDDGSRWslrurn3DPSHpjunG_FXFib2suwufHnxPcnE-MTOktBsDHrOcIZ6idy-3ndFPGH5kiuhvYfjWXoPUA4GrzJxAwqQHTaGe-lBHXg_K4gSL-2-cMeKw"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Essentials T-Shirt White - Women's",
+                "code": "PUMA-SHIRT-W-004",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "White cotton t-shirt with black cat logo, relaxed fit",
+                "image": [
+                    "https://static.wixstatic.com/media/f7cef4_048df0ae36e447ae8f951d235249a4c5~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                    "https://static.wixstatic.com/media/f7cef4_0b79f3eb3d9c4965972ff4af6657603e~mv2.png/v1/fit/w_500,h_500,q_90/file.png"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma teamFINAL Training Pants Black - Men's",
+                "code": "PUMA-PANT-M-001",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black training pants with white cat logo, tapered fit",
+                "image": [
+                    "https://product.hstatic.net/1000391653/product/599855_01.1_6e7f8bea2089489494f7261ee1cdfb18_grande.jpg",
+                    "https://product.hstatic.net/1000391653/product/599855_01_567cf11a056a4c5fb5ece9cee4bb9fbf_grande.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Essentials Fleece Joggers Grey - Men's",
+                "code": "PUMA-PANT-M-002",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Grey fleece joggers with black cat, ribbed cuffs",
+                "image": [
+                    "https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/11/quan-ni-nam-lacoste-slim-fit-sweatpants-xh1776-cca-mau-xam-size-s-673d990fb9a88-20112024150847.jpg",
+                    "https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2024/11/quan-ni-nam-lacoste-slim-fit-sweatpants-xh1776-cca-mau-xam-size-s-673d990fba90b-20112024150847.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Run Favorite Shorts Navy - Men's",
+                "code": "PUMA-PANT-M-003",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Navy running shorts with cat logo, built-in brief",
+                "image": [
+                    "https://supersports.com.vn/cdn/shop/files/52591099-1.jpg?v=1764296249&width=1000",
+                    "https://supersports.com.vn/cdn/shop/files/52591099-3.jpg?v=1764296249&width=1000"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Compression Long Tights Black - Men's",
+                "code": "PUMA-PANT-M-004",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black compression tights with cat logo, dryCELL",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRINo0mex0e3VyreqAFpigPZxNF_jbxPGrvVU5d8mCQIeuY7Rv1iuonAxtKLhcKEakSVVpypzrg0Z_xwut-EbQAf-pT3x5t",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRFadmXklbq_Z-iaCMVvhShIJ8dC598m_96hSXJCHLXwfKaXz_WYb4x1wUAUiwGYcWUF6-S2A6iBaKnuNYhePeIJJB1873LbQ"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Studio 7/8 Tights Black - Women's",
+                "code": "PUMA-PANT-W-001",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Black high-waisted 7/8 leggings with cat logo",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiqjF0uy_JXKvJStDy3qvnWKaMXUvBBW1WV-lb4Q8S5Lj-WzR0YY_D0WB1l3Z5SzXt7q39XXnmshAt4oykP6ANLwcu8gwd8Nihka5F3XESdQxFIWvIQm-ExCs",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR3NZFkuwxB1y6PXoLpjjvLiVLfg8cqvqbxrfK8DexPC1yX5NRmwKYTUqvW3nZRG8eBtWRXuhyZw1KWVMf9FsMc4WIgIpFDrZ57iKTnMtA"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Active Shorts Pink - Women's",
+                "code": "PUMA-PANT-W-002",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Pink training shorts with white cat, built-in brief",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSjrYDNT2NeJVWhnXczZJs7DIrE0iKD2Uvi3hciqDkfBiivstGy_5EKmvt631OzTUm7Pp6fPzxxi_Ctq_L_FqiMdiqZZGvEhfIRmHlHWNtwQgVMw1B3wJRrhSF3",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR1Obk-KhcwkmpjtJGBik15Bx2mVfxJ55sFSiU9V4Sb7DZ7YNfPQe_eyvH0f11yHjsmOTXa6t82N1i5w-iO7tF7eTLfd9XvcA"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Essentials Joggers Grey - Women's",
+                "code": "PUMA-PANT-W-003",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Grey fleece joggers with black cat, relaxed fit",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ6kQnSpB98o8Z9szS-B1qvvgfhEKkdZMJy2mO9dp6uihcH4tOClNIOHHqBrHR3O0vO2eTas2D0YvWdfW2XqPOPBgDZIGdWNIHTSjtsd4JMA-Ospg3z0P_7NjM",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQAkCSXE9HgiWx7O7LmLb2q_AnJ7TOAOzP6wadEJQa52npYiiGz2sHWoCc7SwtxqgExkkNb3HSxTDJ7fA2h1giF99hiy4aOWB1gs3qA5f61XSbkG4En8gmD6Q"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Training Tights Purple - Women's",
+                "code": "PUMA-PANT-W-004",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Purple training tights with cat logo, mid-rise",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQD0PVBdtiOLfp-JE5-XVOFDsRnjah_AYCLjuUj_9bIyX3ZK_DR1HCe0FeOKT4X7PDLQZP9qc0L9b2RuBwCSKArX5stBd94gZ-AW898DLMc5mtYWEXvB5GatF8",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTax3FIt77UwzV6iZNzD8PsHz-NSFIAS0U7UeZyI6kbKr_YQYePSB_jRiokp_J_1_FjVIWdNIXtYiC2BaLcwNs0-d62tT3h0g"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Essentials Baseball Cap Black",
+                "code": "PUMA-CAP-001",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "Black baseball cap with white cat logo, adjustable",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQMdPXuEZQofzGgSP7uvAIXPB02wIrwNk9A2PDIcpK7ZfMbVNrGtwLekBuFg5an19ZU_LUnmDu8NK7wwTJe1jrAfiCHG-tCrWAS4dBMrZ_mADMTGYzy_8WWtvk",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQMdPXuEZQofzGgSP7uvAIXPB02wIrwNk9A2PDIcpK7ZfMbVNrGtwLekBuFg5an19ZU_LUnmDu8NK7wwTJe1jrAfiCHG-tCrWAS4dBMrZ_mADMTGYzy_8WWtvk"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Puma Performance Running Cap White",
+                "code": "PUMA-CAP-002",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "White performance cap with black cat, moisture-wicking",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRQIQglmBwrUDXFVJ6GKFycnpQjdlE1BmBNnZpHLz85M82xoCVxKO1p6OdaQQkwAjnoCDcLtRwv204mbjlZsz2Lldf82nolAA",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKW5HVJ855YP2rIGRzh1KmdXiTVV2wmhLD-5uX3JC2BzzhiK8IS9wYCtQWPXMAxbxIaL1Y2rZc6qL-Nb8OmCVheJSBqf7H"
+                ],
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "brand": "Converse",
+        "products": [
+            {
+                "name": "Converse Chuck Taylor Crew Socks White 3-Pack",
+                "code": "CONV-SOCK-001",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "White crew socks with black star logo, cushioned, 3-pack",
+                "image": "https://www.converse.vn/media/catalog/product/cache/ae7cee22ac1ff58c2794c87414f27b45/0/8/0882-CONMC059600100WOSA-1.jpg",
+                "quantity": 100
+            },
+            {
+                "name": "Converse Star Chevron Ankle Socks Black 3-Pack",
+                "code": "CONV-SOCK-002",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "Black ankle socks with white star chevron, 3-pack",
+                "image": "https://www.converse.vn/media/catalog/product/cache/ae7cee22ac1ff58c2794c87414f27b45/0/8/0882-CONMC0596023005OSA-1.jpg",
+                "quantity": 100
+            },
+            {
+                "name": "Converse Chuck Taylor Patch T-Shirt Black - Men's",
+                "code": "CONV-SHIRT-M-001",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Black t-shirt with white Chuck Taylor patch logo",
+                "image": [
+                    "https://www.converse.vn/media/catalog/product/cache/fd0e379f89890db9af2334e8ce8c85ef/0/8/0882-CONLT110500100500M-1.jpg",
+                    "https://www.converse.vn/media/catalog/product/cache/fd0e379f89890db9af2334e8ce8c85ef/0/8/0882-CONLT110500100500M-3.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse All Star Pullover Hoodie Grey - Men's",
+                "code": "CONV-SHIRT-M-002",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Grey pullover hoodie with black All Star logo",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQt0t1E7P6yf0o5OPjNSb2YHs8AFIZMGxSMlqC_kv-xMG2csbpetveDgFOULf7vem-MSt2Y-9j_MIZcMdlPQ8gFeUOrZRY",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRTnYxgoIwgBSeAYsogcUmvkh2j6oIKtEgoLubcQIJQMZRty-fK1EnwayJhZOaD5q7NMvhDaenhPI2B8IyRQm1e_BPqX9Do"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Basketball Jersey Blue - Men's",
+                "code": "CONV-SHIRT-M-003",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Blue basketball jersey with white star logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJN5bIXI2jT60wHJaXyLIwf5zz61kFkbt7S2dxnXdNYfUI8xYVaFng6hxQiElilA270XdDNsW_6qZieG1DOVeQ7fJnl7n4GM_e846yXG61ehiRk7M92AfWBA",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcReeQBOSqQgZcwMQ1WUXJlCF8BOqlO1SMGhDWS7y4YyO5PU67prOV8FNC8NivmCFnM5EpStiXGBCQO4IHQAd0KyBDUjJFM6"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Skateboarding Graphic Tee Navy - Men's",
+                "code": "CONV-SHIRT-M-004",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Navy graphic t-shirt with star chevron design",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfw1yazl4-MzJ0tzfUs6R6sxnXJYCVYQhNzZ3lmL-iTSbgj2II4SNiGF7YD9MYO-SAXc92k-hgE85yju_pIJI3HRMmeALj9DMWK2VHSfkg",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSEAkH3799GsgNbwv0i_wWvL2-Zg8GkZPn9LogSxpF94BwTYt1lheHnszLSnU3k-JliUwsN5ojWgBeDJvlu2LmQNYho1dmGPRIzjq3Y8-6p"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Wordmark Crop Top Pink - Women's",
+                "code": "CONV-SHIRT-W-001",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Pink crop top with white Converse wordmark",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4LrI3xQB-2wm_3ZAOqgkGKLpgrpNdprGmY1NT_hdbGCmCztInthy9oqRO3FOCjgSFdchZWGEgqgMBC2_tKNahueZMIxsYjA",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT9lSTfyIcSfzo8pgscl2qpfLYAJTBM0jjmXIPo8gTzKZA1igdzyRK0HsQ7yIxePc1r1omz9SN-GJV8wjGWxc6aBv2qmhX9yA"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Star Chevron Sports Bra Black - Women's",
+                "code": "CONV-SHIRT-W-002",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Black sports bra with white star chevron logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS_vsuG_m-DcrwiNX24w6njfXiev8S66GXF_u9E5PfihdfJ21EqvKM1-_4MSt7_TbVAtxrZ7yYUvKmfR28vKXGfzTOjs1KsXsPZEGJgTDQzjwd7PYN8p21XbA",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRRKLG5i11zlF_VIzPZwOYcdbD7nMEhcsvTe35NbIUdH3Zw7rVH7RWe6iCb0OOLCJxQbohELm5B-MdV5huDis_XyDDSbq0u5EjMZCeP4ANm17mnoO8MH0dWU58"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse All Star Tank Top Purple - Women's",
+                "code": "CONV-SHIRT-W-003",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Purple tank top with white All Star logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTc3CsGzxAAf5V2JXDO4JgQSAkD92-NDWiPshxQXAsX7yc7Caz1fIAo4mtvnKrBqBCO2ICo6kIGhQ8GjgTsoFKV7sr05s6AGT8WUVQucxR4DXgYsEE_XX6GwgQ",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTOaGQ48Dgja9HGGeYvAL5QtcyGtwRHVgSwdl1O0jiHMT-vgK0lTSeQUpRXrmKreaRdZPQzD7MI3e50QbLnWHjXNDcEX5Tj"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Chuck Patch T-Shirt White - Women's",
+                "code": "CONV-SHIRT-W-004",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "White t-shirt with black Chuck Taylor patch",
+                "image": [
+                    "https://product.hstatic.net/1000284478/product/00w_027077a04_1_5832bd64ed7c44dfbb0106eedb6e7c07.jpg",
+                    "https://product.hstatic.net/1000284478/product/00w_027077a04_2_1f450316bdb241b4865add7939acc213.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Star Chevron Joggers Black - Men's",
+                "code": "CONV-PANT-M-001",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black joggers with white star chevron logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQxGAC46KyqJID-e4i6PDf6H8LQ3XN8hu0vVcLbqYWVG9hRSiovQ7NbBtjPfR7wHLmUIzi4W6UjkumYMtiOl7UZK4bskeFwzMaL7soOq8Ts_DtLP9Zg0iR0bg",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDw_h8hVDauU6zvoy2CG7fk9V92rtvbD-IjgjdEq4XhACfdqwG6LYvTFrqOdifZYkXs1DXjyd2Euqoi8TiaJzzSxGJi-dA01UefAsi1kwhoUvDYvVZQhRO3w"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Basketball Shorts Grey - Men's",
+                "code": "CONV-PANT-M-002",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Grey basketball shorts with black star logo",
+                "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxdpZcTV4sqvH3DK1T5fMbcQMd97EWWH-Eq9HKVjnypF1ZnnJbZWb_Pjp3QhJnsezC2Jj8Fqdn1svV9LU5Sa77yGeH5esjkA",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Essentials Fleece Pants Navy - Men's",
+                "code": "CONV-PANT-M-003",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Navy fleece pants with white All Star logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQxGAC46KyqJID-e4i6PDf6H8LQ3XN8hu0vVcLbqYWVG9hRSiovQ7NbBtjPfR7wHLmUIzi4W6UjkumYMtiOl7UZK4bskeFwzMaL7soOq8Ts_DtLP9Zg0iR0bg",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDw_h8hVDauU6zvoy2CG7fk9V92rtvbD-IjgjdEq4XhACfdqwG6LYvTFrqOdifZYkXs1DXjyd2Euqoi8TiaJzzSxGJi-dA01UefAsi1kwhoUvDYvVZQhRO3w"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Skateboarding Cargo Pants Khaki - Men's",
+                "code": "CONV-PANT-M-004",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Khaki cargo pants with star chevron patch",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7XSX33Cgmwa9svjkJI6iXhmWEpuTxxBsJkZ9YGfzdreaX8GyZ8XBifP-Pg220GhEQ619C111ADdF3nC00Cbpkc0uabjlEh3eDzJa4ZEGa",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpP3rp2hSl7L0mMkO7AcaqXXHwzIoKeeVvx8up3NniDf_zbvIMcmHlUlQz7xRY6mLNDk7mUeqXIhoH6Wtlbvc1V40MrRcqWLDPUn10bIzc"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse All Star Leggings Black - Women's",
+                "code": "CONV-PANT-W-001",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Black leggings with white All Star logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQy7UDk4E5q-dhDP60NGXlf9n0Bss-v9Xj3ULW7kkoDvjeWfqvcoNQdupUm4wNGxnrinDMho81IPO0AYRGrqxuAJ_wsaMPj0f4NjUwecaY",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQnavLddTq2nRtZ1W86PinrHzE-L4_j3MykS22iJ7MBJUz32hFYFuFA_XsA2_8KY3q0mzecd5OlpDgB8EDAKovMQLtfD-r-u-eJVmGWt74"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Training Shorts Pink - Women's",
+                "code": "CONV-PANT-W-002",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Pink training shorts with white star logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROsjbVfc1DaVo1JAnF315SgA_LT4f_JtLVrc2wUYI_RGA23420YfgDWtAZ2m863ZiwU3SQ6ULflJS-VZpEbdFahO-kC__zyxsc59b0NOO2DNFHQvAJrVt5",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTa9SeHU7ZEow-f57fOQGdKyMUZmIY4MuwBc-4EClsCurJY0rOrgJ70ucr67qQ5hn1BWvlFUSJwQSAzSWa1QPYLoT57J9UHyrFFuA3YY43kjX0_ll3byVGb"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Wordmark Sweatpants Grey - Women's",
+                "code": "CONV-PANT-W-003",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Grey sweatpants with black Converse wordmark",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTc2awCzcl1VkVBvkmw4om8BI6wHRBplm_lmH_G-cv27O2foSJyjHaXFz2Iw1WdnbRcHaJL2bzBGLsOe4zvFKdii4pQ1KSHg5zyJXuBcU0",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT64BvyWfL90uIuo3B8xfCPHXBImnehDSTrNkRfSc8A1AvMQ3LVbBUmE-EUJRRQUgZE6S6i3kywYD_387vvMZwEmjh2UXay"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Star Chevron Joggers Purple - Women's",
+                "code": "CONV-PANT-W-004",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Purple joggers with white star chevron",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTudC0PDiD6Awpa5LqTJ-kxNcxzmtC9qib1t9Bzye8bQm-99Bbu9O-joL6sDYRlRlcVguwks7COQVccROMtSiogNFsd3DRflluxFncQ9zvuzoS1C1zaLAMk4c",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcShQMV1laIGpG2WNpqI6YcieP2CYdRmQMYeZknxrTwQtxsF663uEdfPiVBgKarLNknIOOL8EYTw8Stqz_n19pButY6WXAbN"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Chuck Taylor Patch Baseball Cap Black",
+                "code": "CONV-CAP-001",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "Black baseball cap with white Chuck patch",
+                "image": [
+                    "https://i.ebayimg.com/images/g/T2oAAeSwYtxohI69/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/zGkAAeSwcdlolWOe/s-l1600.webp"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Converse Star Chevron Snapback White",
+                "code": "CONV-CAP-002",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "White snapback with black star chevron logo",
+                "image": [
+                    "https://product.hstatic.net/1000284478/product/00w_22134-a44_1_b46a3701e0a543028d8ecae00ba0dfaf.jpg",
+                    "https://product.hstatic.net/1000284478/product/00w_22134-a44_2_89fbced7fbfd48a0a73a203894ed21d2.jpg"
+                ],
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "brand": "Vans",
+        "products": [
+            {
+                "name": "Vans Classic Crew Socks White 3-Pack",
+                "code": "VANS-SOCK-001",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "White crew socks with black Vans logo, 3-pack",
+                "image": "https://cdn.vuahanghieu.com/unsafe/0x500/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2025/10/set-3-doi-tat-co-trung-unisex-adidas-of-3-pairs-of-mid-calf-socks-ft8529-mau-trang-size-25-27cm-68ff433978515-27102025170233.jpg",
+                "quantity": 100
+            },
+            {
+                "name": "Vans Checkerboard Crew Socks Black 3-Pack",
+                "code": "VANS-SOCK-002",
+                "category": "Socks",
+                "gender": "unisex",
+                "description": "Black crew socks with white checkerboard pattern, 3-pack",
+                "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhsetOGSLMMPhpsbASCySLVK-x1JHBD_TcbfGrYZSwsKkS_NB1kMqh1xkpqsgc31mNHznBrxs2q7WIfuHG5Nkpm8RN_78VlwT7RcUus6IKIvUd5S5rRPDgog",
+                "quantity": 100
+            },
+            {
+                "name": "Vans Classic Logo T-Shirt Black - Men's",
+                "code": "VANS-SHIRT-M-001",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Black t-shirt with white Vans Off The Wall logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_gN8VZ-MqHFEB_lZOaYAJzSk_AkJDJBUYuqZO0TPJSZ9vkdMwiTIVWJlzJekWFLF_SZkdrU6FrrrNHj_FguU5zDzb0FQQcFzQp6wtq1QFcqHzy2799fHjEQ",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQUPjfs3MP0WIdkRS3RRt2pEfbWMdRr4b0Y6EtUHiejgae3EVeAhbDHhbPJ2pR8lxf3H9AXMuUAnIEvHnbiXyS7DqkACJZqkDYSQv1IZmIzvLABAwTTobo"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Checkerboard Pullover Hoodie Grey - Men's",
+                "code": "VANS-SHIRT-M-002",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Grey hoodie with black checkerboard detail",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6QYqy7JqJJuRSBjcxfpz1CenLAMmQGQYgzXMv19jb17fP_ebXBWt9SXgzRXu7Kc70uUrWyuzv_-nbeq3Iu4HCUyRrm_ijGLFUKqaH44gPhILhhYIgxJTbjg",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ9z5gxmlcsMasqhV41wgQ88RETlIqzxEQ21zJpOv4ubj2YFKfcLJ-jz2VOOXHGlpB-ffMEBsQJNGSUEUqr64fbL_jr03BqXE55uV0HlYD4"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Skateboarding Jersey Blue - Men's",
+                "code": "VANS-SHIRT-M-003",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Blue skateboarding jersey with white Vans logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSUsWTKxZ-eHLxjTWVsljYum2r9K_TbOBZ_jSX-6ksqi2wL7ZS2YFdsYcK0GMTaOzZC9VXJOhCyrTcUSO3qNDdo7J8zvoSv4EQ5_7g8RbVBadhUM2dIeHJM6rE",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRB1kYmF1XK0RD0a2batw7UE7pTkkKvrJwmkpoSdGHApB_w6ORbJ_a8b0UzviwuhDIYA9LP5oAaej7vQ3PhNvL89_lbaJsTA1GqyRKnKDbcOO4VkmNR8UVg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans BMX Graphic Tee Navy - Men's",
+                "code": "VANS-SHIRT-M-004",
+                "category": "Shirt",
+                "gender": "male",
+                "description": "Navy graphic t-shirt with BMX design",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRauOGOI0AkloOfsbu9dLYUtOA6WqSNieYbF381QXIjngS0cliCxmRWM5sE6hGpC3EGXF3pY3FRUblOIQ1UOM93ip6fPE7A4GVgcLgWzdpZPkM3EeAAUBoa",
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSe_V6wjyZq_e7iPq6f8azWZRVp_J5r_XNP2vE6GWT9QX8e6OPTxvbj0oDaJJbg-yjA8ShIxWdkzfTlhDI_I3Qn4PJrv2AES8PEpkxi3e9QFZJUFed08hQQ3w"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Off The Wall Crop Top Pink - Women's",
+                "code": "VANS-SHIRT-W-001",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Pink crop top with white Vans logo",
+                "image": [
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCf6QpxiS94m1RqwUdudVbfNPzg7vtIXh0pWPbgTsTzgblvkdChTWgmn19wm4_jbPkSuiOyBjNsXPuc3AxMm8axDP2Nhft",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRNxVwylopz_4CzyCAS44UWYm40cTEZuuemWQcJ3WDHPCkd_4NqCivq7Cpi7bzU5VJq1qcqut0DLxmJHZjS6de1emgGhSJt"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Active Sports Bra Black - Women's",
+                "code": "VANS-SHIRT-W-002",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Black sports bra with white Vans logo",
+                "image": [
+                    "https://authentic-shoes.com/wp-content/uploads/2023/04/s9tsiwxxbbqhipsyrodjuw_e26af2c193454ee59bc650e6c10a2066.jpg",
+                    "https://authentic-shoes.com/wp-content/uploads/2023/04/4ecc0de334df8f12f39a71579cf76d_b9fc2154e9924d06a085cb4a82006bc6_master_bd874cd04cf94cdebb9b9682dbf8cd97.png"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Classic Tank Top Purple - Women's",
+                "code": "VANS-SHIRT-W-003",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "Purple tank top with white Vans logo",
+                "image": [
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/54323a21eca54d2585aedd10a1039d76_9366/Ao_Tank_Top_Thun_Gan_Essentials_trang_JC9007_01_laydown.jpg",
+                    "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/38f1cc0272e94eb984fb3f3d570dd8da_9366/Ao_Tank_Top_Thun_Gan_Essentials_trang_JC9007_21_model.jpg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Checkerboard T-Shirt White - Women's",
+                "code": "VANS-SHIRT-W-004",
+                "category": "Shirt",
+                "gender": "female",
+                "description": "White t-shirt with black checkerboard pattern",
+                "image": [
+                    "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3108412364bfe83e9b8a18acc4318337.webp",
+                    "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/3fd7e64d5240e269fcd2cfd6c1773830.webp"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Classic Joggers Black - Men's",
+                "code": "VANS-PANT-M-001",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Black joggers with white Vans logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8uOPIEzBIdxQKqX6ABG_s-zN0Ed1jjwjShrBQpxpVrircVPcR5cGLi3Ldo_vBfa_qM2OpPVhsl-XiPAMUOMdUKlV9lIcKwyjxcquRF-Pn6B8RtahsNqE31S0",
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQuuxrP1xvd6schG3TRV78krH9W5gtKjkZ3bub6h26NeZVD0JTOwPs9JnpTOrf4XQAYvfzrcCpq53nWiJwPC1XEgqUgncLxPQ"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Skateboarding Cargo Pants Grey - Men's",
+                "code": "VANS-PANT-M-002",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Grey cargo pants with multiple pockets",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSW20XIavSuGKdGtNGpzpJbD9FvMuYsQzxhyelPX16o5eDpeuZWfR8uDFuSOIOlzyvZyL0OdaNFBcX32ykVUHw-bJiguY2RmOHZw0Syyzi7mK7rNHHZjMQg",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCdKLfhUW_dFYvHng1OIF3A5le1ZhCMHcgFCRgij0Ve9gSeRgNcvjd6juajrkgv7MbiYAGW5M8MhdHwgB0xDBax7MEyi2sPI9M5mgBsuLuIm4ID6wofmU9"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans BMX Shorts Navy - Men's",
+                "code": "VANS-PANT-M-003",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Navy BMX shorts with white Vans logo",
+                "image": [
+                    "https://i.ebayimg.com/images/g/E1sAAeSwGjtpOxv7/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/cvMAAeSwgIdpOxv8/s-l1600.webp"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Fleece Sweatpants Khaki - Men's",
+                "code": "VANS-PANT-M-004",
+                "category": "Pants",
+                "gender": "male",
+                "description": "Khaki fleece sweatpants with black logo",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSupD6aw7KlXn1IZyOj_dAwsoHv2pJFVsFr7RL8jCM0I088lZkZtYtNXT14WxibTOnjEHytLYkIYHgUWXvvfhNsWbKWUpNu10ePXyZ5UkbvWezkPokzOCoculA",
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSE_-mcW5l2-xTKqAIV5WA9eNZpHdbNN-wO2VXy4qd_5lutljJMrLBngwKjK_RtzvbRGRyJOhL73VJZ4Dy-PUwJAbSGBDAh"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Leggings Black - Women's",
+                "code": "VANS-PANT-W-001",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Black leggings with white Vans logo",
+                "image": [
+                    "https://i.ebayimg.com/images/g/LAEAAOSw5AlnzNxw/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/EjcAAOSwvXlnzNyV/s-l1600.webp"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Training Shorts Pink - Women's",
+                "code": "VANS-PANT-W-002",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Pink training shorts with white logo",
+                "image": [
+                    "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTbGYa-GHLVQTmXPx1LGjMwwv-pqGK9aFkpDT7qxFJBpupjuuKbmlS0MayKAfJL2v7I9q6cIuu2558KWIBw9xhWou03jQs-T8BWgdQ2rboz6va-fBrbAIs1NQ",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT-Ok7sxSY5Vw618wuJ_c6XSWoiLMHwXnKRfbavfZYKteXc8QDNbogMnqDf6QuktzNAXJXp8TfW87iFCwTfniAJQheyqTGAa_1TMCnn0_yI3MXYQtW7UlbN"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Off The Wall Track Pants Grey - Women's",
+                "code": "VANS-PANT-W-003",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Grey track pants with black Vans logo",
+                "image": [
+                    "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR163whzhKEtkJ6LF2ke7JinduUtaCR2n7GOcBJCzuYFu2y1jGUxmOBFnECjXoNINgGnk7oa_4csw8g7AUhaePdVJ2dabR02uvC4z8M7TJAkbOL4LmmM_im",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiOM73zTin4UsvNKy6CK_RZZQEnj7Vl8HHduQy5EHBi3pHPFYJV8yIVucpAHE-c7oN0yRtfWq45mtgy-UF-tJqgmSBQPezJGXU4vUPrP19iJBMg_JvPtglwg"
+                ],
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Checkerboard Joggers Purple - Women's",
+                "code": "VANS-PANT-W-004",
+                "category": "Pants",
+                "gender": "female",
+                "description": "Purple joggers with checkerboard detail",
+                "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCLByegwdvEPCNY_jdPyj-R-s9sWKhYnDxr68gmMoEPux7YXsSm6OPFTF2iRfWqVB787Cpz8FVrK69ZYAF6Tvlb5ARyzu3aTcx43cG9KH7DsC1U8h8fQAB5g",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Classic Patch Trucker Cap Black",
+                "code": "VANS-CAP-001",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "Black trucker cap with white Vans patch",
+                "image": [
+                    "https://i.ebayimg.com/images/g/AJgAAeSwpCNoHs6q/s-l1600.webp",
+                    "https://i.ebayimg.com/images/g/cNEAAeSw2kZoHs6q/s-l1600.webp"
+                ],
+                "quantity": 100
+            },
+            {
+                "name": "Vans Off The Wall Snapback White",
+                "code": "VANS-CAP-002",
+                "category": "Cap",
+                "gender": "unisex",
+                "description": "White snapback with black Vans logo",
+                "image": [
+                    "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT8R0gcHmxyok2YNsIfnPSsb6501Tn_BwGKuLd0mWi4dXwWdz30oQg_tNx6ALLWbrF1EoAMxvSNUIu8qYEk6-Vr-jPY66QdNylrECw8NWf0Z4UAx8zhryTcDA",
+                    "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRR7SZYBu7TQyIm3XyAtsaxJV8OhA96NU_vr5vAVe1syNnwi796c2mWCHT3BTQkCbNxrXgqL9OW8HOLK7Jv86L1ls3z3xAz"
+                ],
+                "quantity": 100
+            }
+        ]
+    }
+]
